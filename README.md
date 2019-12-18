@@ -1,2 +1,2 @@
 # nav-id
-Optimization project to consider navigation and institutional identification on Canada.ca.  |  Projet d'optimisation pour considérer la navigation et l'identification institutionnelle sur Canada.ca
+Optimization project to consider orientation on Government of Canada websites.  |  Projet d'optimisation pour envisager l'orientation sur les sites Web du gouvernement du Canada
