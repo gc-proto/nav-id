@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 <!--<![endif]-->
-	<head>
-		<meta charset="utf-8" />
-		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-		<title>Demo nav setup - Canada.ca</title>
-		<meta content="width=device-width,initial-scale=1" name="viewport" />
-		<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
-		<link rel="stylesheet" href="../css/demo-nav.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- need for mobile menu -->
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> <!-- need for mobile menu -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
-		<noscript>
-			<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/wet-boew/css/noscript.min.css" />
-		</noscript>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105628416-2"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
-			gtag("config", "UA-105628416-2");
-		</script>
-	</head>
-	<!-- <link type="text/css" rel="stylesheet"
+
+<head>
+	<meta charset="utf-8" />
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	<title>Demo nav setup - Canada.ca</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport" />
+	<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css" />
+	<link rel="stylesheet" href="../css/demo-nav.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- need for mobile menu -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- need for mobile menu -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous" />
+	<link rel="stylesheet"
+		href="https://www150.statcan.gc.ca/n1/sites/all/libraries/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0"
+		crossorigin="anonymous" />
+
+
+	<noscript>
+		<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/wet-boew/css/noscript.min.css" />
+	</noscript>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105628416-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag("js", new Date());
+		gtag("config", "UA-105628416-2");
+	</script>
+</head>
+<!-- <link type="text/css" rel="stylesheet"
 		href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css_2IKGBv_a_cf89rR9C2AFw4yy4t4NTxT12-cXpUIL8rE.css"
 		media="all" />
 	<link type="text/css" rel="stylesheet"
@@ -36,195 +43,213 @@
 		href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css_xi7Je4VO33c0Lz-OKQcHCap66k4klNfWGbqjgTagGfM.css"
 		media="all" /> -->
 
-	
-	<!--[if lt IE 9]>
+
+<!--[if lt IE 9]>
 	<link type="text/css" rel="stylesheet" href="https://www150.statcan.gc.ca/n1/profiles/wetkit/libraries/theme-gcweb/css/ie8-theme.min.css?q0vlps" media="all" />
 	<![endif]-->
-	<link type="text/css" rel="stylesheet"
-		href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css__QB7VIR7BHiZsVCyX4XIOtxA73K5yL1YeekpnbeLj_M.css"
-		media="all" />
-	
-	<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet"
+	href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css__QB7VIR7BHiZsVCyX4XIOtxA73K5yL1YeekpnbeLj_M.css"
+	media="all" />
+
+<!--[if lt IE 9]>
 	<link type="text/css" rel="stylesheet" href="https://www150.statcan.gc.ca/n1/profiles/wetkit/libraries/theme-gcweb/css/messages-ie.min.css?q0vlps" media="all" />
 	<![endif]-->
-	<link type="text/css" rel="stylesheet"
-		href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css_hse_nw_51OJHw8_CPMdwf8Hs413zu3X-36RztQlg6ms.css"
-		media="all" />
-	<link type="text/css" rel="stylesheet"
-		href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css_2L1jHSMPK7Ki4bqYJ6eYTtSi41PfiD_Td52urxtVAVQ.css"
-		media="all" />
-	<link type="text/css" rel="stylesheet"
-		href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css_iMW7SElNswQG5jAdGu4PihWRfc_ZbnnOXcT8ZoZAylQ.css"
-		media="all" />
-	<script
-		src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_EebRuRXFlkaf356V0T2K_8cnUVfCKesNTxdvvPSEhCM.js"></script>
-	
-	<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet"
+	href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css_hse_nw_51OJHw8_CPMdwf8Hs413zu3X-36RztQlg6ms.css"
+	media="all" />
+<link type="text/css" rel="stylesheet"
+	href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css_2L1jHSMPK7Ki4bqYJ6eYTtSi41PfiD_Td52urxtVAVQ.css"
+	media="all" />
+<link type="text/css" rel="stylesheet"
+	href="https://www150.statcan.gc.ca/n1/sites/default/files/css/css_iMW7SElNswQG5jAdGu4PihWRfc_ZbnnOXcT8ZoZAylQ.css"
+	media="all" />
+<script
+	src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_EebRuRXFlkaf356V0T2K_8cnUVfCKesNTxdvvPSEhCM.js"></script>
+
+<!--[if lt IE 9]>
 	<script src="https://www150.statcan.gc.ca/n1/profiles/wetkit/libraries/wet-boew/js/ie8-wet-boew.min.js?v=4.0.30"></script>
 	<![endif]-->
-	<script
-		src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_CwA9uD2kYGc1ubylea-Ul8iN5PWYS40GWBA4ue9Bo4w.js"></script>
-	<script>document.createElement("picture");</script>
-	<script
-		src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_Op36rpEuouwo993MnOtTWhC6MniqllYPlvSEs7v3eoY.js"></script>
-	<script
-		src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_b2ut4s5D30m3N-I4njztFt-0MJ-SM9rAAT9bTOJATRk.js"></script>
-	<script
-		src="//assets.adobedtm.com/caacec67651710193d2331efef325107c23a0145/satelliteLib-c2082deaf69c358c641c5eb20f94b615dd606662.js"></script>
-	<script
-		src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_FJbwjzirjribkdAR0qD2qId2uacwfoC9DcZVTg-t6kQ.js"></script>
-	<script
-		src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_7GF9I-qqQ8xsI9lGqOnm1CtTsA1E0TVlutI8Imo1KnQ.js"></script>
-	<script>jQuery.extend(Drupal.settings, { "basePath": "\/n1\/", "pathPrefix": "en\/", "ajaxPageState": { "theme": "bootstrap_ndm", "theme_token": "xzoWJZ8G313absRyXwoLbEqXRrEXOM3Nrm4l1rxIBBQ", "js": { "profiles\/wetkit\/libraries\/wet-boew\/js\/wet-boew.min.js": 1, "profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew2.min.js": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/js\/theme.min.js": 1, "profiles\/wetkit\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js": 1, "profiles\/wetkit\/modules\/contrib\/picture\/picture.min.js": 1, "0": 1, "profiles\/wetkit\/themes\/bootstrap\/js\/bootstrap.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js": 1, "misc\/jquery-extend-3.4.0.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew.min.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js": 1, "1": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/js\/wetkit-accordion.js": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/js\/polyfills\/pointer_events.js": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/js\/polyfills\/placeholders.jquery.min.js": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/js\/polyfills\/url-search-params-polyfill.js": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/js\/polyfills.js": 1, "profiles\/wetkit\/modules\/contrib\/panopoly_magic\/panopoly-magic.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/alert.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/collapse.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/tooltip.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/vertical_tabs.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/js\/wetkit-emberx.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_widgets\/js\/wetkit_widgets.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/datatables.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/jquery.shorten.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/jquery.highlight.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/facets.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/map.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/results.js": 1, "profiles\/wetkit\/libraries\/jstorage\/jstorage.min.js": 1, "profiles\/wetkit\/modules\/contrib\/custom_search\/js\/custom_search.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/horizontal_tabs.js": 1, "\/\/assets.adobedtm.com\/caacec67651710193d2331efef325107c23a0145\/satelliteLib-c2082deaf69c358c641c5eb20f94b615dd606662.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_bean\/js\/wetkit_bean.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/js\/wetkit-navbar.js": 1, "profiles\/wetkit\/themes\/wetkit_bootstrap\/js\/wetkit-bootstrap.modules.js": 1, "sites\/all\/themes\/bootstrap_ndm\/assets\/js\/ndm_bootstrap.keyup.js": 1 }, "css": { "modules\/system\/system.base.css": 1, "misc\/ui\/jquery.ui.core.css": 1, "misc\/ui\/jquery.ui.theme.css": 1, "misc\/ui\/jquery.ui.tabs.css": 1, "misc\/ui\/jquery.ui.accordion.css": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/css\/theme.min.css": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/css\/ie8-theme.min.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-featured.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-accordian.css": 1, "profiles\/wetkit\/modules\/contrib\/date\/date_api\/date.css": 1, "profiles\/wetkit\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css": 1, "modules\/field\/theme\/field.css": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/css\/ndm-extras.css": 1, "modules\/node\/node.css": 1, "profiles\/wetkit\/modules\/contrib\/picture\/picture_wysiwyg.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-contextual.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-ctools.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-media.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-modal.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-panels-ipe.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_layouts\/css\/layouts.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/css\/wetkit-navbar.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_widgets\/css\/wetkit_widgets.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_wysiwyg\/css\/wetkit-wysiwyg.css": 1, "profiles\/wetkit\/modules\/contrib\/views\/css\/views.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/beans.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/facets.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/results.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/spinner.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/catalogue.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/sort.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/landing.css": 1, "profiles\/wetkit\/css\/wetkit.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_menu\/css\/wetkit_menu.css": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/css\/messages.min.css": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/css\/messages-ie.min.css": 1, "profiles\/wetkit\/modules\/contrib\/ctools\/css\/ctools.css": 1, "profiles\/wetkit\/modules\/contrib\/panels\/css\/panels.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_layouts\/plugins\/layouts\/hadfield\/hadfield.css": 1, "profiles\/wetkit\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/css\/horizontal_tabs.css": 1, "profiles\/wetkit\/modules\/contrib\/custom_search\/custom_search.css": 1, "sites\/all\/libraries\/fontawesome\/css\/font-awesome.css": 1, "profiles\/wetkit\/themes\/wetkit_bootstrap\/css\/wetkit_bootstrap.styles.css": 1, "sites\/all\/themes\/bootstrap_ndm\/css\/style.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_bean\/css\/wetkit_bean.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_core\/css\/wetkit_core.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_search\/css\/wetkit_search.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_wetboew\/css\/wetkit_wetboew.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_images\/css\/wetkit_images.css": 1 } }, "admin_menu": { "suppress": 1 }, "CToolsModal": { "modalSize": { "type": "scale", "width": ".90", "height": ".80", "addWidth": 0, "addHeight": 0, "contentRight": 25, "contentBottom": 75 }, "modalOptions": { "opacity": ".60", "background-color": "#000" }, "animationSpeed": "fast", "modalTheme": "CToolsModalDialog", "throbberTheme": "CToolsModalThrobber" }, "panopoly_magic": { "pane_add_preview_mode": "single" }, "custom_search": { "form_target": "_self", "solr": 1 }, "ndm_query": [], "ndm_beans_filter": { "ndm-filter-text": "\/n1\/en\/ndmautocomplete\/text" }, "ndm_results_tr": { "tables": "tableaux", "profilesofacommunityorregion": "profilsdunecommunauteouduneregion", "publicusemicrodata": "microdonneesagrandediffusion", "datavisualization": "visualisationdesdonnees", "thematicmaps": "cartesthematiques", "all": "tout" }, "currentPath": "type\/data", "currentPathIsAdmin": false, "urlIsAjaxTrusted": { "\/n1\/ndm\/status": true, "\/n1\/en\/type\/data?MM=1": true }, "bootstrap": { "anchorsFix": 0, "anchorsSmoothScrolling": 1, "formHasError": 1, "popoverEnabled": 0, "popoverOptions": { "animation": 1, "html": 0, "placement": "right", "selector": "", "trigger": "click", "triggerAutoclose": 1, "title": "", "content": "", "delay": 0, "container": "body" }, "tooltipEnabled": 0, "tooltipOptions": { "animation": 1, "html": 1, "placement": "auto top", "selector": "", "trigger": "hover focus", "delay": 0, "container": "body" } } });</script>
-	<body class="page-type-nav" vocab="http://schema.org/" typeof="WebPage">
-		<nav>
-			<ul id="wb-tphp">
-				<li class="wb-slc">
-					<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-				</li>
-				<li class="wb-slc">
-					<a class="wb-sl" href="#wb-info">Skip to "About government"</a>
-				</li>
-			</ul>
-    </nav>
-		<header>
-			<div id="wb-bnr" class="container">
-				<section id="wb-lng" class="text-right">
-					<h2 class="wb-inv">Language selection</h2>
-					<ul class="list-inline margin-bottom-none">
-						<li><a lang="fr" hreflang="fr" href="#">Français</a></li>
-					</ul>
-				</section>
-				<div class="row">
-					<div class="brand col-xs-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
-						<a href="https://www.canada.ca/en.html" property="url"><img
-								src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt=""
-								property="logo"><span class="wb-inv" property="name"> Government of Canada / <span
-									lang="fr">Gouvernement du Canada</span></span></a>
-						<meta property="areaServed" typeof="Country" content="Canada">
-						<link property="logo" href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg">
-					</div>
-					<section id="wb-srch" class="col-lg-8 text-right">
-						<h2>Search</h2>
-						<form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
-							<div class="form-group">
-								<label for="wb-srch-q" class="wb-inv">Search Statistics Canada</label>
-								<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q"
-									type="search" value="" size="34" maxlength="170" placeholder="Search Statistics Canada">
-								<datalist id="wb-srch-q-ac">
-								</datalist>
-							</div>
-							<div class="form-group submit">
-								<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small"
-									name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span
-										class="wb-inv">Search</span></button>
-							</div>
-						</form>
-					</section>
-				</div>
-			</div>
-			<nav class="gcweb-menu" typeof="SiteNavigationElement">
-				<div class="container">
-					<h2 class="wb-inv">Menu</h2>
-					<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu
-						<span class="expicon glyphicon glyphicon-chevron-down"></span></button>
-					<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
-						<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs
-								and the workplace</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and
-								citizenship</a></li>
-						<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/health.html">Health</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/environment.html">Environment and natural
-								resources</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a>
-						</li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a>
-						</li>
-						<li role="presentation"><a role="menuitem"
-								href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a>
-						</li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
-						<li role="presentation"><a role="menuitem"
-								href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
-					</ul>
-				</div>
-			</nav>
-			<nav id="wb-bc" property="breadcrumb">
-				<h2>You are here:</h2>
-				<div class="container">
-					<ol class="breadcrumb">
-						<li><a href="https://www.canada.ca/en.html">Canada.ca</a></li>
-						<li><a href="https://www.canada.ca/en.html">Statistics Canada</a></li>
-					</ol>
-				</div>
-			</nav>
-		</header>
+<script
+	src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_CwA9uD2kYGc1ubylea-Ul8iN5PWYS40GWBA4ue9Bo4w.js"></script>
+<script>document.createElement("picture");</script>
+<script
+	src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_Op36rpEuouwo993MnOtTWhC6MniqllYPlvSEs7v3eoY.js"></script>
+<script
+	src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_b2ut4s5D30m3N-I4njztFt-0MJ-SM9rAAT9bTOJATRk.js"></script>
+<script
+	src="https://assets.adobedtm.com/caacec67651710193d2331efef325107c23a0145/satelliteLib-c2082deaf69c358c641c5eb20f94b615dd606662.js"></script>
+<script
+	src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_FJbwjzirjribkdAR0qD2qId2uacwfoC9DcZVTg-t6kQ.js"></script>
+<script
+	src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_7GF9I-qqQ8xsI9lGqOnm1CtTsA1E0TVlutI8Imo1KnQ.js"></script>
+<script>jQuery.extend(Drupal.settings, { "basePath": "\/n1\/", "pathPrefix": "en\/", "ajaxPageState": { "theme": "bootstrap_ndm", "theme_token": "xzoWJZ8G313absRyXwoLbEqXRrEXOM3Nrm4l1rxIBBQ", "js": { "profiles\/wetkit\/libraries\/wet-boew\/js\/wet-boew.min.js": 1, "profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew2.min.js": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/js\/theme.min.js": 1, "profiles\/wetkit\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js": 1, "profiles\/wetkit\/modules\/contrib\/picture\/picture.min.js": 1, "0": 1, "profiles\/wetkit\/themes\/bootstrap\/js\/bootstrap.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js": 1, "misc\/jquery-extend-3.4.0.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew.min.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js": 1, "profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js": 1, "1": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/js\/wetkit-accordion.js": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/js\/polyfills\/pointer_events.js": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/js\/polyfills\/placeholders.jquery.min.js": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/js\/polyfills\/url-search-params-polyfill.js": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/js\/polyfills.js": 1, "profiles\/wetkit\/modules\/contrib\/panopoly_magic\/panopoly-magic.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/alert.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/collapse.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/tooltip.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/vertical_tabs.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/js\/wetkit-emberx.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_widgets\/js\/wetkit_widgets.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/datatables.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/jquery.shorten.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/jquery.highlight.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/facets.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/map.js": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/js\/results.js": 1, "profiles\/wetkit\/libraries\/jstorage\/jstorage.min.js": 1, "profiles\/wetkit\/modules\/contrib\/custom_search\/js\/custom_search.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/horizontal_tabs.js": 1, "\/\/assets.adobedtm.com\/caacec67651710193d2331efef325107c23a0145\/satelliteLib-c2082deaf69c358c641c5eb20f94b615dd606662.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_bean\/js\/wetkit_bean.js": 1, "profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/js\/wetkit-navbar.js": 1, "profiles\/wetkit\/themes\/wetkit_bootstrap\/js\/wetkit-bootstrap.modules.js": 1, "sites\/all\/themes\/bootstrap_ndm\/assets\/js\/ndm_bootstrap.keyup.js": 1 }, "css": { "modules\/system\/system.base.css": 1, "misc\/ui\/jquery.ui.core.css": 1, "misc\/ui\/jquery.ui.theme.css": 1, "misc\/ui\/jquery.ui.tabs.css": 1, "misc\/ui\/jquery.ui.accordion.css": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/css\/theme.min.css": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/css\/ie8-theme.min.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-featured.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-accordian.css": 1, "profiles\/wetkit\/modules\/contrib\/date\/date_api\/date.css": 1, "profiles\/wetkit\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css": 1, "modules\/field\/theme\/field.css": 1, "sites\/all\/modules\/custom\/ndm_layouts\/assets\/css\/ndm-extras.css": 1, "modules\/node\/node.css": 1, "profiles\/wetkit\/modules\/contrib\/picture\/picture_wysiwyg.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-contextual.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-ctools.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-media.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-modal.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-panels-ipe.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_layouts\/css\/layouts.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/css\/wetkit-navbar.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_widgets\/css\/wetkit_widgets.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_wysiwyg\/css\/wetkit-wysiwyg.css": 1, "profiles\/wetkit\/modules\/contrib\/views\/css\/views.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/beans.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/facets.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/results.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/spinner.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/catalogue.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/sort.css": 1, "sites\/all\/modules\/custom\/ndm_beans\/assets\/css\/landing.css": 1, "profiles\/wetkit\/css\/wetkit.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_menu\/css\/wetkit_menu.css": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/css\/messages.min.css": 1, "profiles\/wetkit\/libraries\/theme-gcweb\/css\/messages-ie.min.css": 1, "profiles\/wetkit\/modules\/contrib\/ctools\/css\/ctools.css": 1, "profiles\/wetkit\/modules\/contrib\/panels\/css\/panels.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_layouts\/plugins\/layouts\/hadfield\/hadfield.css": 1, "profiles\/wetkit\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/css\/horizontal_tabs.css": 1, "profiles\/wetkit\/modules\/contrib\/custom_search\/custom_search.css": 1, "sites\/all\/libraries\/fontawesome\/css\/font-awesome.css": 1, "profiles\/wetkit\/themes\/wetkit_bootstrap\/css\/wetkit_bootstrap.styles.css": 1, "sites\/all\/themes\/bootstrap_ndm\/css\/style.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_bean\/css\/wetkit_bean.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_core\/css\/wetkit_core.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_search\/css\/wetkit_search.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_wetboew\/css\/wetkit_wetboew.css": 1, "profiles\/wetkit\/modules\/custom\/wetkit_images\/css\/wetkit_images.css": 1 } }, "admin_menu": { "suppress": 1 }, "CToolsModal": { "modalSize": { "type": "scale", "width": ".90", "height": ".80", "addWidth": 0, "addHeight": 0, "contentRight": 25, "contentBottom": 75 }, "modalOptions": { "opacity": ".60", "background-color": "#000" }, "animationSpeed": "fast", "modalTheme": "CToolsModalDialog", "throbberTheme": "CToolsModalThrobber" }, "panopoly_magic": { "pane_add_preview_mode": "single" }, "custom_search": { "form_target": "_self", "solr": 1 }, "ndm_query": [], "ndm_beans_filter": { "ndm-filter-text": "\/n1\/en\/ndmautocomplete\/text" }, "ndm_results_tr": { "tables": "tableaux", "profilesofacommunityorregion": "profilsdunecommunauteouduneregion", "publicusemicrodata": "microdonneesagrandediffusion", "datavisualization": "visualisationdesdonnees", "thematicmaps": "cartesthematiques", "all": "tout" }, "currentPath": "type\/data", "currentPathIsAdmin": false, "urlIsAjaxTrusted": { "\/n1\/ndm\/status": true, "\/n1\/en\/type\/data?MM=1": true }, "bootstrap": { "anchorsFix": 0, "anchorsSmoothScrolling": 1, "formHasError": 1, "popoverEnabled": 0, "popoverOptions": { "animation": 1, "html": 0, "placement": "right", "selector": "", "trigger": "click", "triggerAutoclose": 1, "title": "", "content": "", "delay": 0, "container": "body" }, "tooltipEnabled": 0, "tooltipOptions": { "animation": 1, "html": 1, "placement": "auto top", "selector": "", "trigger": "hover focus", "delay": 0, "container": "body" } } });</script>
 
-		<div class="demo-ds-nav">
-			<div class="container">
-				<div class="row">
-					<nav class="navbar navbar-expand-md">
-						<a href="#" class="navbar-brand">
-							<img src="./demo-logo.svg" alt="Statistics Canada" height=36>
-						</a>
-						<button type="button" class="navbar-toggler white" data-toggle="collapse" data-target="#navbarCollapse">
-							<span class="fas fa-bars"></span>&nbsp;Menu
-						</button>
-						<div class="collapse navbar-collapse" id="navbarCollapse">
-							<div class="navbar-nav">
-								<ul>
-									<li><a href="#" class="nav-item nav-link">Subjects</a></li>
-									<li><a href="#" class="nav-item nav-link">Data</a></li>
-									<li><a href="#" class="nav-item nav-link">Analysis</a></li>
-									<li><a href="#" class="nav-item nav-link">Reference</a></li>
-									<li><a href="#" class="nav-item nav-link">Geography</a></li>
-									<li><a href="#" class="nav-item nav-link">Census</a></li>
-								</ul>
-							</div>
-						</div>
-					</nav>
+<body class="page-type-nav" vocab="http://schema.org/" typeof="WebPage">
+	<nav>
+		<ul id="wb-tphp">
+			<li class="wb-slc">
+				<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+			</li>
+			<li class="wb-slc">
+				<a class="wb-sl" href="#wb-info">Skip to "About government"</a>
+			</li>
+		</ul>
+	</nav>
+	<header>
+		<div id="wb-bnr" class="container">
+			<section id="wb-lng" class="text-right">
+				<h2 class="wb-inv">Language selection</h2>
+				<ul class="list-inline margin-bottom-none">
+					<li><a lang="fr" hreflang="fr" href="#">Français</a></li>
+				</ul>
+			</section>
+			<div class="row">
+				<div class="brand col-xs-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+					<a href="https://www.canada.ca/en.html" property="url"><img
+							src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="" property="logo"><span
+							class="wb-inv" property="name"> Government of Canada / <span lang="fr">Gouvernement du
+								Canada</span></span></a>
+					<meta property="areaServed" typeof="Country" content="Canada">
+					<link property="logo" href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg">
 				</div>
+				<section id="wb-srch" class="col-lg-8 text-right">
+					<h2>Search</h2>
+					<form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
+						<div class="form-group">
+							<label for="wb-srch-q" class="wb-inv">Search Statistics Canada</label>
+							<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value=""
+								size="34" maxlength="170" placeholder="Search Statistics Canada">
+							<datalist id="wb-srch-q-ac">
+							</datalist>
+						</div>
+						<div class="form-group submit">
+							<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span
+									class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+						</div>
+					</form>
+				</section>
 			</div>
 		</div>
+		<nav class="gcweb-menu" typeof="SiteNavigationElement">
+			<div class="container">
+				<h2 class="wb-inv">Menu</h2>
+				<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu
+					<span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+				<ul role="menu" aria-orientation="vertical"
+					data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs
+							and the workplace</a></li>
+					<li role="presentation"><a role="menuitem"
+							href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and
+							citizenship</a></li>
+					<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and
+							industry</a></li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a>
+					</li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a>
+					</li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+					<li role="presentation"><a role="menuitem"
+							href="https://www.canada.ca/en/services/environment.html">Environment and natural
+							resources</a></li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National
+							security and defence</a></li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture,
+							history and sport</a></li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing,
+							justice and emergencies</a>
+					</li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport
+							and infrastructure</a>
+					</li>
+					<li role="presentation"><a role="menuitem"
+							href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a>
+					</li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and
+							finances</a></li>
+					<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and
+							innovation</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id="wb-bc" property="breadcrumb">
+			<h2>You are here:</h2>
+			<div class="container">
+				<ol class="breadcrumb">
+					<li><a href="https://www.canada.ca/en.html">Canada.ca</a></li>
+					<li><a href="https://www.canada.ca/en.html">Statistics Canada</a></li>
+				</ol>
+			</div>
+		</nav>
+	</header>
 
-<main role="main" class="container">
-	<div class="row">
-		<section>
-			<div class="region region-content">
-				<section id="block-system-main" class="block block-system clearfix">
+	<div class="demo-ds-nav">
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-expand-md">
+					<a href="#" class="navbar-brand">
+						<img src="./demo-logo.svg" alt="Statistics Canada" height=36>
+					</a>
+					<button type="button" class="navbar-toggler white" data-toggle="collapse" data-target="#navbarCollapse">
+						<span class="fas fa-bars"></span>&nbsp;Menu
+					</button>
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<div class="navbar-nav">
+							<ul>
+								<li><a href="#" class="nav-item nav-link">Data</a></li>
+								<li><a href="#" class="nav-item nav-link">Analysis</a></li>
+								<li><a href="#" class="nav-item nav-link">Reference</a></li>
+								<li><a href="#" class="nav-item nav-link">Geography</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<main role="main" class="container">
+		<div class="row">
+			<section>
+				<div class="region region-content">
+					<section id="block-system-main" class="block block-system clearfix">
 
 
-					<div class="container panel-display hadfield clearfix">
-						<div class="region-hadfield-top ">
-							<div class="region-inner clearfix">
-								<div class="panel-pane pane-page-title mrgn-bttm-lg">
+						<div class="container panel-display hadfield clearfix">
+							<div class="region-hadfield-top ">
+								<div class="region-inner clearfix">
+									<div class="panel-pane pane-page-title mrgn-bttm-lg">
 
 
 
-									<div class="pane-content">
-										<h1 id="wb-cont" class="page-header" style="border-bottom: 1px solid #af3c43">Data</h1>
-									</div>
+										<div class="pane-content">
+											<div class="panel-separator"></div>
+											<div class="panel-pane pane-block pane-bean-ndm-data-search-by-vector">
 
 
-								</div>
-								<!-- <div class="panel-separator"></div>
+
+												<div class="pane-content">
+													<section>
+														<div
+															class="field field-name-field-bean-wetkit-body field-type-text-long field-label-hidden">
+															<div class="field-items">
+																<div class="field-item even">
+																	<p><a class="btn pull-right" href="/t1/tbl1/en/sbv.action"
+																			style="text-decoration: underline !important;" role="button">Search by vector</a>
+																	</p>
+																</div>
+															</div>
+														</div>
+													</section>
+												</div>
+
+												<h1 id="wb-cont" class="page-header" style="border-bottom: 1px solid #af3c43">Data</h1>
+											</div>
+
+
+										</div>
+										<!-- <div class="panel-separator"></div>
 								<div class="panel-pane pane-block pane-bean-trust-centre">
 
 
@@ -254,31 +279,31 @@
 									</div> -->
 
 
-								</div>
-								<div class="panel-separator"></div>
-								<div class="panel-pane pane-block pane-bean-filters-flow">
+									</div>
+									<div class="panel-separator"></div>
+									<div class="panel-pane pane-block pane-bean-filters-flow">
 
 
 
-									<div class="pane-content">
-										<section>
-											<div class="field field-name-field-bean-wetkit-body field-type-text-long field-label-hidden">
-												<div class="field-items">
-													<div class="field-item even"><span class="wb-invisible">
-															<a href="#ndm-facets">Skip to filters</a>.
-															<a href="#ndm-results">View results</a>.
-														</span>
+										<div class="pane-content">
+											<section>
+												<div class="field field-name-field-bean-wetkit-body field-type-text-long field-label-hidden">
+													<div class="field-items">
+														<div class="field-item even"><span class="wb-invisible">
+																<a href="#ndm-facets">Skip to filters</a>.
+																<a href="#ndm-results">View results</a>.
+															</span>
+														</div>
 													</div>
 												</div>
-											</div>
-										</section>
+											</section>
+										</div>
+
+
 									</div>
-
-
-								</div>
-								<div class="panel-separator"></div>
-								<div class="panel-pane pane-block pane-bean-ndm-help">
-
+									<div class="panel-separator"></div>
+									<div class="panel-pane pane-block pane-bean-ndm-help">
+										<!-- 
 
 
 									<div class="pane-content">
@@ -294,28 +319,10 @@
 												</div>
 											</div>
 										</section>
+									</div> -->
+
+
 									</div>
-
-
-								</div>
-								<div class="panel-separator"></div>
-								<div class="panel-pane pane-block pane-bean-ndm-data-search-by-vector">
-
-
-
-									<div class="pane-content">
-										<section>
-											<div class="field field-name-field-bean-wetkit-body field-type-text-long field-label-hidden">
-												<div class="field-items">
-													<div class="field-item even">
-														<p><a class="btn btn-primary pull-right" href="/t1/tbl1/en/sbv.action"
-																role="button">Search by vector</a></p>
-													</div>
-												</div>
-											</div>
-										</section>
-									</div>
-
 
 								</div>
 							</div>
@@ -370,10 +377,10 @@
 													<h4 class="ndm-facet-title">Subject</h4>
 													<div class="ndm-facet-description"></div>
 													<ul class="ndm-facet-moreless list-unstyled">
-														<li><a href="/n1/en/type/data?subject_levels=32"
+														<li><a href="https://www150.statcan.gc.ca/n1/en/type/data?subject_levels=32"
 																title="Show results for &quot;Agriculture&quot;" class="ndm_unchecked">Agriculture
 																(574)</a></li>
-														<li><a href="/n1/en/type/data?subject_levels=21"
+														<li><a href="https://www150.statcan.gc.ca/n1/en/type/data?subject_levels=21"
 																title="Show results for &quot;Business and consumer services and culture&quot;"
 																class="ndm_unchecked">Business and consumer services and culture (455)</a></li>
 														<li><a href="/n1/en/type/data?subject_levels=33"
@@ -4310,7 +4317,7 @@
 								<div class="panel-pane pane-panels-mini pane-ndm-page-details row pagedetails">
 
 
-<div class="clearfix"></div>
+									<div class="clearfix"></div>
 									<div class="pane-content mrgn-tp-lg" style="margin-left: 12px;">
 										<div class="panel-display panel-1col clearfix" id="mini-panel-ndm_page_details">
 											<div class="panel-panel panel-col">
@@ -4357,10 +4364,10 @@
 
 
 
-															<dl id="wb-dtmd">
-																<dt>Date modified:</dt>
-																<dd><time property="dateModified"> 2020-01-21</time></dd>
-															</dl>
+														<dl id="wb-dtmd">
+															<dt>Date modified:</dt>
+															<dd><time property="dateModified"> 2020-01-21</time></dd>
+														</dl>
 
 
 													</div>
@@ -4551,13 +4558,13 @@
 								</div>
 							</div>
 						</div>
-					</div>
+				</div>
 
-				</section>
-			</div>
+			</section>
+		</div>
 		</section>
-	</div>
-</main>
+		</div>
+	</main>
 	<script type="text/javascript">
 	< !--//-->
 	< ![CDATA[// ><!--
@@ -4585,53 +4592,49 @@
 				</ul>
 			</nav>
 		</div>
-			<div class="brand">
-				<div class="container">
-					<div class="row">
-						<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
-							<h2 class="wb-inv">About this site</h2>
-							<ul>
-								<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-								<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-								<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
-								<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
-								<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-							</ul>
-						</nav>
-						<div class="col-xs-6 visible-sm visible-xs tofpg">
-							<a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
-						</div>
-						<div class="col-xs-6 col-md-3 col-lg-2 text-right">
-							<img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg"
-								alt="Symbol of the Government of Canada">
-						</div>
+		<div class="brand">
+			<div class="container">
+				<div class="row">
+					<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+						<h2 class="wb-inv">About this site</h2>
+						<ul>
+							<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+							<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+							<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
+							<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+							<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+						</ul>
+					</nav>
+					<div class="col-xs-6 visible-sm visible-xs tofpg">
+						<a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+					</div>
+					<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+						<img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg"
+							alt="Symbol of the Government of Canada">
 					</div>
 				</div>
 			</div>
-		</footer>
-		<!--[if gte IE 9]><!-->
-		<script src="https://www150.statcan.gc.ca/n1/profiles/wetkit/libraries/wet-boew/js/wet-boew.min.js?v=4.0.30"></script>
-		<!--<![endif]-->
-		
-		<!--[if lt IE 9]>
-		<script src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_F0oV0JzfG_lsH4DMPTDoyo8zIdOoDsR9QG5XFw3PIpU.js"></script>
-		<![endif]-->
-		<script src="https://www150.statcan.gc.ca/n1/profiles/wetkit/libraries/theme-gcweb/js/theme.min.js?v=4.0.29"></script>
-		<script
-			src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
-		<script>_satellite.pageBottom();</script>
-		<script
-			src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
-		<!--[if gte IE 9 | !IE]><!-->
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script> not needed with updated script -->
-		<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
-		<!--<![endif]-->
-		<!--[if lt IE 9]>
-				<script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
-			<![endif]-->
-		<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
-		<script>
-			document.getElementById("submissionPage").value = location.href;
-		</script>
-	</body>
+		</div>
+	</footer>
+	<!--[if gte IE 9]><!-->
+	<script src="https://www150.statcan.gc.ca/n1/profiles/wetkit/libraries/wet-boew/js/wet-boew.min.js?v=4.0.30"></script>
+
+	<script
+		src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_F0oV0JzfG_lsH4DMPTDoyo8zIdOoDsR9QG5XFw3PIpU.js"></script>
+
+	<script src="https://www150.statcan.gc.ca/n1/profiles/wetkit/libraries/theme-gcweb/js/theme.min.js?v=4.0.29"></script>
+	<script>
+		_satellite.pageBottom();
+	</script>
+	<script
+		src="https://www150.statcan.gc.ca/n1/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<!--	<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script> -->
+
+	<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+	<script>
+		document.getElementById("submissionPage").value = location.href;
+	</script>
+</body>
+
 </html>
