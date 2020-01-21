@@ -1,65 +1,66 @@
-.gc-ds-nav {
+.demo-ds-nav {
 	background-color: #26374a;
 }
 
-.gc-ds-nav .white {
+.demo-ds-nav .white {
 	color: white;
 	border: 1px solid white;
 }
 
-.gc-ds-nav .navbar-toggler  {
+.demo-ds-nav .navbar-toggler  {
 	font-size: 1em;
 	padding: .65em;
 	margin-top: -15px;
 }
 
-.gc-ds-nav .navbar-collapse {
+.demo-ds-nav .navbar-collapse {
 	justify-content: flex-end;
 }
 
-.gc-ds-nav .navbar-brand {
-	padding: .5em;
+.demo-ds-nav .navbar-brand {
+    padding: .5em;
+    margin-bottom: 1em;
 }
 
-.gc-ds-nav .nav-link {
+.demo-ds-nav .nav-link {
 	padding: 0rem 0rem;
 	margin: 1.75rem 1rem;
 }
 
-.gc-ds-nav .navbar-brand img {
-	height: 20px;
+.demo-ds-nav .navbar-brand img {
+    /* height: 30px; */
 }
 
-.gc-ds-nav .navbar:before, .navbar:after {
+.demo-ds-nav .navbar:before, .navbar:after {
     content: none;
 }
 
-.gc-ds-nav .navbar {
+.demo-ds-nav .navbar {
 	margin-bottom: 0px;
 	margin-top: 14px;
 }
 
-.gc-ds-nav .navbar-nav ul {
+.demo-ds-nav .navbar-nav ul {
 	list-style-type: none;
 	padding-inline-start: 0px;
 	margin-bottom: 0;
 }
 
-.gc-ds-nav a {
+.demo-ds-nav a {
 	color: white;
 	text-decoration: none;
 	font-size: 1em;
 }
 
-.gc-ds-nav a:hover {
+.demo-ds-nav a:hover {
 	border-bottom: 2px solid white;
 }
 
-.gc-ds-nav a:visited {
+.demo-ds-nav a:visited {
 	color: white;
 }
 
-.gc-ds-nav .active {
+.demo-ds-nav .active {
 	border-bottom: 2px solid white;
 	width: 33%;
 	font-weight: bold;
@@ -67,31 +68,31 @@
 
 
 @media (min-width: 1024px) {
-	.gc-ds-nav {
+	.demo-ds-nav {
 		margin-top: 10px;
 	}
 
-	.gc-ds-nav .navbar-brand img {
-		height: 30px;
+	.demo-ds-nav .navbar-brand img {
+        /* height: 30px; */
 	}
 }
 
 @media (min-width: 500px) {
-	.gc-ds-nav .navbar-nav ul li {
+	.demo-ds-nav .navbar-nav ul li {
 		display: inline-block;
 		margin-left: 10px;
 	}
 
-	.gc-ds-nav .navbar-brand img {
-		height: 24px;
+	.demo-ds-nav .navbar-brand img {
+		/* height: 24px; */
 	}
 
-	.gc-ds-nav .nav-link {
+	.demo-ds-nav .nav-link {
 		padding: 0rem 0rem;
 		margin: 0rem 0rem;
 	}
 
-	.gc-ds-nav .active {
+	.demo-ds-nav .active {
 		width: 100%;
 	}
 }
