@@ -1,5 +1,10 @@
+
+#wb-bc, body {
+    background-color: white !important; /* overrides stat can style sheet */
+}
 .demo-ds-nav {
-	background-color: #26374a;
+    background-color: #26374a;
+    font-family: "Noto sans";
 }
 
 .demo-ds-nav .white {
@@ -14,7 +19,11 @@
 }
 
 .demo-ds-nav .navbar-collapse {
-	justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.demo-ds-nav .navbar-collapse.collapse {
+    display: flex !important; /* overrides stat can style sheet */
 }
 
 .demo-ds-nav .navbar-brand {
@@ -53,7 +62,8 @@
 }
 
 .demo-ds-nav a:hover {
-	border-bottom: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
 }
 
 .demo-ds-nav a:visited {
