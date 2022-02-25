@@ -126,8 +126,52 @@
 	background:#e3e3e3; 
 }
 
+.provisional.contributors {
+	font-size: 16px;
+	font-weight: 600;
+}
 
+.provisional.from {
+	font-size: 17px;
+	margin-top: 3px;
+}
+
+.provisional.contributors ul {
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	margin-inline-start: 0em;
+	margin-inline-end: 0px;
+	padding-inline-start: 0px;
+}
   
+@media screen and (min-width: 991px) {
+.provisional.contributors li {
+  display: inline-block;
+  margin-right: .7em;
+}
+.provisional.contributors li:first-child:before {
+  content: none;
+}
+.provisional.contributors li:before {
+  content: "\2022";
+  margin-right: .7em;
+}
+}
+
+@media screen and (max-width: 1200px) {
+.provisional.contributors ul {
+  margin-inline-start: -30px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.provisional.most-requested-bullets li {
+  font-size: 19px;
+}
+.provisional.contributors ul {
+  margin-inline-start: 1.5em;
+}
+}
 </style>
 
 <body vocab="http://schema.org/" typeof="WebPage" resource="#wb-webpage" class="home page-type-nav ">
@@ -549,6 +593,47 @@
 
 
   </div>
+  
+  
+  <!-- 
+<div class="container">
+  <div class="row">
+    <h2 class="wb-inv">Contributors</h2>
+    <div class="row">
+      <section class="col-md-12">
+        <div class="col-md-1">
+          <h3 class="provisional from">From:</h3>
+        </div>
+        <div class="provisional contributors col-md-11">
+          <ul>
+            <li><a href="">All contacts</a></li>
+              <li><a href="">Departments and agencies</a></li>
+                <li><a href="">About government</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="global-footer2">
+  <footer id="wb-info">
+    <div class="landscape2">
+      <nav class="container wb-navcurr">
+        <div class="row">
+          <section class="col-md-12">
+          
+            <div class="provisional contributors col-md-11">
+              <ul>
+                <li><a href="">All contacts</a></li>
+                  <li><a href="">Departments and agencies</a></li>
+                    <li><a href="">About government</a></li>
+              </ul>
+            </div>
+        </div>
+    
+      </nav>
+    </div>-->
 
   <div class="global-footer2">
     <footer id="wb-info">
@@ -582,11 +667,16 @@
               <h2 class="wb-inv ">About the Government of Canada</h2>
 
               <h3 class="mrgn-tp-0 mrgn-bttm-md">Government of Canada</h3>
-              <ul class="list-unstyled colcount-sm-3">
-              <li><a href="/en/contact.html">All contacts</a></li>
-                  <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-                    <li><a href="./government/system.html">About government </a></li>
-              </ul>
+              
+              <div class="provisional contributors">
+                <ul>
+                  <li><a href="">All contacts</a></li>
+                    <li><a href="">Departments and agencies</a></li>
+                      <li><a href="">About government</a></li>
+                </ul>
+              </div>
+              
+            
               
           
               
