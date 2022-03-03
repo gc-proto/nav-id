@@ -100,21 +100,23 @@
   <script>!function (a) { var e = "https://s.go-mpulse.net/boomerang/", t = "addEventListener"; if ("False" == "True") a.BOOMR_config = a.BOOMR_config || {}, a.BOOMR_config.PageParams = a.BOOMR_config.PageParams || {}, a.BOOMR_config.PageParams.pci = !0, e = "https://s2.go-mpulse.net/boomerang/"; if (window.BOOMR_API_key = "KBFUZ-C9D7G-RB8SX-GRGEN-HGMC9", function () { function n(e) { a.BOOMR_onload = e && e.timeStamp || (new Date).getTime() } if (!a.BOOMR || !a.BOOMR.version && !a.BOOMR.snippetExecuted) { a.BOOMR = a.BOOMR || {}, a.BOOMR.snippetExecuted = !0; var i, _, o, r = document.createElement("iframe"); if (a[t]) a[t]("load", n, !1); else if (a.attachEvent) a.attachEvent("onload", n); r.src = "javascript:void(0)", r.title = "", r.role = "presentation", (r.frameElement || r).style.cssText = "width:0;height:0;border:0;display:none;", o = document.getElementsByTagName("script")[0], o.parentNode.insertBefore(r, o); try { _ = r.contentWindow.document } catch (O) { i = document.domain, r.src = "javascript:var d=document.open();d.domain='" + i + "';void(0);", _ = r.contentWindow.document } _.open()._l = function () { var a = this.createElement("script"); if (i) this.domain = i; a.id = "boomr-if-as", a.src = e + "KBFUZ-C9D7G-RB8SX-GRGEN-HGMC9", BOOMR_lstart = (new Date).getTime(), this.body.appendChild(a) }, _.write("<bo" + 'dy onload="document._l();">'), _.close() } }(), "".length > 0) if (a && "performance" in a && a.performance && "function" == typeof a.performance.setResourceTimingBufferSize) a.performance.setResourceTimingBufferSize(); !function () { if (BOOMR = a.BOOMR || {}, BOOMR.plugins = BOOMR.plugins || {}, !BOOMR.plugins.AK) { var e = "" == "true" ? 1 : 0, t = "", n = "vzz7b3nydfeosyprvuha-f-3e115c04f-clientnsv4-s.akamaihd.net", i = "false" == "true" ? 2 : 1, _ = { "ak.v": "32", "ak.cp": "368225", "ak.ai": parseInt("231651", 10), "ak.ol": "0", "ak.cr": 21, "ak.ipv": 4, "ak.proto": "h2", "ak.rid": "16f3a722", "ak.r": 32593, "ak.a2": e, "ak.m": "dscb", "ak.n": "essl", "ak.bpcip": "174.115.240.0", "ak.cport": 50151, "ak.gh": "209.148.205.76", "ak.quicv": "", "ak.tlsv": "tls1.3", "ak.0rtt": "", "ak.csrc": "-", "ak.acc": "", "ak.t": "1643228430", "ak.ak": "hOBiQwZUYzCg5VSAfCLimQ==zepcwCFdybQaPzLP439e8SVagwK8MeXsI3o3C7oAgFDspxmfedOLXNq48uydNobb3fNDMJ8J/dD9I3OxvasvxKMhNF/tfhBGTmi0MEkPcsowRH1xA4yinO+bhjmfZynTdREGCUtbt18qysP5Z6kt8iqRR735+psK/7O00dxaMafYa8yqG0hFvLj0BECj3wzf4Ab7Kyj5v/Hc7rM0fhAz/wq4/9YdfKDm2uZNfpl7unmmOhd3I0rFKT/6wpi+Eayr5TuxyCTWkbkVvzzUKcg8jPHf8Er10jr5BbHvQgnC2gq0bBSCUvDF1siRlkVPVhsFymulyc8wifVns5dybGe5K0iXrpX8b4FGQm1F75k6c4i5SpSUIcblgDFP6mFywhFRTQkpblFE++axkHoHxz31kmgecjzY03v9JZdXMD170Rc=", "ak.pv": "635", "ak.dpoabenc": "", "ak.tf": i }; if ("" !== t) _["ak.ruds"] = t; var o = { i: !1, av: function (e) { var t = "http.initiator"; if (e && (!e[t] || "spa_hard" === e[t])) _["ak.feo"] = void 0 !== a.aFeoApplied ? 1 : 0, BOOMR.addVar(_) }, rv: function () { var a = ["ak.bpcip", "ak.cport", "ak.cr", "ak.csrc", "ak.gh", "ak.ipv", "ak.m", "ak.n", "ak.ol", "ak.proto", "ak.quicv", "ak.tlsv", "ak.0rtt", "ak.r", "ak.acc", "ak.t", "ak.tf"]; BOOMR.removeVar(a) } }; BOOMR.plugins.AK = { akVars: _, akDNSPreFetchDomain: n, init: function () { if (!o.i) { var a = BOOMR.subscribe; a("before_beacon", o.av, null, null), a("onbeacon", o.rv, null, null), o.i = !0 } return this }, is_complete: function () { return !0 } } } }() }(window);</script>
 </head>
 <style>
-
   .ip-covers-img {
     background-image: url(https://agriculture.canada.ca//themes/custom/aafctheme/images/aafc_homepage_banner_nov18.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     margin-top: 15px;
-}
   }
+  
+
   .global-footer h3 {
     color: white;
   }
- .icon {
-   min-height: 0px;
- }
+
+  .icon {
+    min-height: 0px;
+  }
+
   /* .wayfinder {
     border-right: 1px solid white;
     margin-right: 60px;
@@ -132,59 +134,63 @@
     margin-bottom: 16px;
 
   }
-  
-  #wb-info .landscape2{
-	background:#e3e3e3; 
-}
 
-/* .provisional.contributors {
+  #wb-info .landscape2 {
+    background: #e3e3e3;
+  }
+
+  /* .provisional.contributors {
 	font-size: 16px;
 	font-weight: 600;
 } */
 
-.provisional.from {
-	font-size: 17px;
-	margin-top: 3px;
-}
+  .provisional.from {
+    font-size: 17px;
+    margin-top: 3px;
+  }
 
-.provisional.contributors ul {
-	margin-block-start: 0em;
-	margin-block-end: 0em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	padding-inline-start: 0px;
-}
-  
-@media screen and (min-width: 991px) {
-.provisional.contributors li {
-  display: inline-block;
-  margin-right: .7em;
-  list-style-type: none;
-}
-.provisional.contributors li:first-child:before {
-  content: none;
-}
-.provisional.contributors li:before {
-  content: "\2022";
-  margin-right: .7em;
-}
-}
+  .provisional.contributors ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+  }
 
-@media screen and (max-width: 1200px) {
-.provisional.contributors ul {
-  margin-inline-start: 0px;
-}
-}
+  @media screen and (min-width: 991px) {
+    .provisional.contributors li {
+      display: inline-block;
+      margin-right: .7em;
+      list-style-type: none;
+    }
 
-@media screen and (max-width: 991px) {
-.provisional.most-requested-bullets li {
-  font-size: 19px;
-}
-/* .provisional.contributors ul {
+    .provisional.contributors li:first-child:before {
+      content: none;
+    }
+
+    .provisional.contributors li:before {
+      content: "\2022";
+      margin-right: .7em;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .provisional.contributors ul {
+      margin-inline-start: 0px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .provisional.most-requested-bullets li {
+      font-size: 19px;
+    }
+
+    /* .provisional.contributors ul {
   margin-inline-start: 1.5em;
 } */
-}
+  }
 </style>
+
 <body
   class="agricultureandagrifoodcanada role-is-anonymous anonymous node-1 landing_page published-yes path-frontpage page-node-type-landing-page has-glyphicons aafctheme theme-gcweb">
   <nav aria-label="Skip links">
@@ -231,8 +237,8 @@
           <div class="region col-xs-9 col-sm-4 region-banner">
             <div class="brand" property="publisher" typeof="GovernmentOrganization">
               <a href="https://canada.ca/en.html" property="url">
-                <img id="header-logo" src='https://agriculture.canada.ca/libraries/theme-gcweb/assets/sig-blk-en.svg' alt="Government of Canada"
-                  property="logo" />
+                <img id="header-logo" src='https://agriculture.canada.ca/libraries/theme-gcweb/assets/sig-blk-en.svg'
+                  alt="Government of Canada" property="logo" />
                 <span class="wb-inv"> /
                   <span lang="fr">Gouvernement du Canada</span>
                 </span>
@@ -408,31 +414,31 @@
                                 <div class="col-sm-12 col-md-12">
                                   <h2 class="h3 mrgn-tp-md">Most requested</h2>
 
-                                  <ul
-                                    class="wb-eqht list-unstyled mrgn-tp-md mrgn-bttm-sm lst-spcd-2 h6 colcount-md-3" style="font-size: 17px;
+                                  <ul class="wb-eqht list-unstyled mrgn-tp-md mrgn-bttm-sm lst-spcd-2 h6 colcount-md-3"
+                                    style="font-size: 17px;
     font-weight: 700;">
                                     <li><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="87445223-6317-4dfd-8d33-054436595ec5"
-                                        href="/en/canadas-agriculture-sectors/step-plate-help-feed-canadians">Step up to
+                                        href="https://agriculture.canada.ca/en/canadas-agriculture-sectors/step-plate-help-feed-canadians">Step up to
                                         the plate - Help feed Canadians</a></li>
                                     <li><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="48a88e4c-f97f-46cb-a37d-b89a57d2c6ac"
-                                        href="/en/agricultural-programs-and-services/agriinvest">AgriInvest</a></li>
+                                        href="https://agriculture.canada.ca/en/agricultural-programs-and-services/agriinvest">AgriInvest</a></li>
                                     <li><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="75753bda-f758-493e-97dd-929bb2845903"
-                                        href="/en/agricultural-programs-and-services/agricultural-clean-technology-program-adoption-stream">Agricultural
+                                        href="https://agriculture.canada.ca/en/agricultural-programs-and-services/agricultural-clean-technology-program-adoption-stream">Agricultural
                                         Clean Technology Program: Adoption Stream</a></li>
                                     <li><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="66720fb3-c640-4cb0-b161-67820663cfde"
-                                        href="/en/agricultural-programs-and-services/canadian-agricultural-loans-act-program">Canadian
+                                        href="https://agriculture.canada.ca/en/agricultural-programs-and-services/canadian-agricultural-loans-act-program">Canadian
                                         Agricultural Loans Act Program</a></li>
                                     <li><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="d3bfc011-cd8a-44f4-af14-f5513e851466"
-                                        href="/en/agriculture-and-environment/drought-watch-and-agroclimate/canadian-drought-monitor">Canadian
+                                        href="https://agriculture.canada.ca/en/agriculture-and-environment/drought-watch-and-agroclimate/canadian-drought-monitor">Canadian
                                         Drought Monitor</a></li>
                                     <li><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="d021310d-3c1e-4545-a924-035d735e9470"
-                                        href="/en/canadas-agriculture-sectors/animal-industry/canadian-dairy-information-centre">Canadian
+                                        href="https://agriculture.canada.ca/en/canadas-agriculture-sectors/animal-industry/canadian-dairy-information-centre">Canadian
                                         Dairy Information Centre</a></li>
                                   </ul>
                                 </div>
@@ -449,7 +455,7 @@
                                   <div class="col-lg-6 col-md-6">
                                     <h3 class="h5"><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="b8ab6838-4811-491f-a3f8-7933769487ff"
-                                        href="/en/agricultural-programs-and-services">Apply to a program or use a
+                                        href="https://agriculture.canada.ca/en/agricultural-programs-and-services">Apply to a program or use a
                                         service</a></h3>
 
                                     <p>Grants and funding, managing risk, business management, market development,
@@ -459,7 +465,7 @@
                                   <div class="col-lg-6 col-md-6">
                                     <h3 class="h5"><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="af22117d-87a2-4cfb-af4b-1d8b0855bbce"
-                                        href="/en/canadas-agriculture-sectors">Canada's agriculture sectors</a></h3>
+                                        href="https://agriculture.canada.ca/en/canadas-agriculture-sectors">Canada's agriculture sectors</a></h3>
 
                                     <p>Sector overviews, market information, trade data, economic publications, food
                                       system, animal industry, crops, horticulture, food processing industry</p>
@@ -468,7 +474,7 @@
                                   <div class="col-lg-6 col-md-6">
                                     <h3 class="h5"><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="bfcf7f3a-2847-4f27-8494-0aa8b0ee1f96"
-                                        href="/en/about-our-department/key-departmental-initiatives/food-policy">Food
+                                        href="https://agriculture.canada.ca/en/about-our-department/key-departmental-initiatives/food-policy">Food
                                         Policy for Canada</a></h3>
 
                                     <p>A roadmap for a healthier and more sustainable food system for Canada</p>
@@ -477,7 +483,7 @@
                                   <div class="col-lg-6 col-md-6">
                                     <h3 class="h5"><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="aba5476f-4632-480d-9014-3caf576c388d"
-                                        href="/en/agriculture-and-environment">Agriculture and the environment</a></h3>
+                                        href="https://agriculture.canada.ca/en/agriculture-and-environment">Agriculture and the environment</a></h3>
 
                                     <p>Weather, climate, drought, geospatial products, soil, water, climate change,
                                       indicators, greenhouse gases, biodiversity</p>
@@ -486,7 +492,7 @@
                                   <div class="col-lg-6 col-md-6">
                                     <h3 class="h5"><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="9fc2782b-6ecd-4b98-b51d-f1ab35736d35"
-                                        href="/en/agricultural-science-and-innovation">Agricultural science and
+                                        href="https://agriculture.canada.ca/en/agricultural-science-and-innovation">Agricultural science and
                                         innovation</a></h3>
 
                                     <p>Living Laboratories, agricultural research projects and results, research
@@ -497,7 +503,7 @@
                                   <div class="col-lg-6 col-md-6">
                                     <h3 class="h5"><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="5c2b88ea-0c27-4540-a1d4-b2516f40d25e"
-                                        href="/en/international-trade">International trade of agri-food products</a>
+                                        href="https://agriculture.canada.ca/en/international-trade">International trade of agri-food products</a>
                                     </h3>
 
                                     <p>Export and expand to global markets, trade services for exporters, market
@@ -514,7 +520,7 @@
                                       <div class="col-lg-6 col-md-6">
                                         <h3 class="h5"><a data-entity-substitution="canonical" data-entity-type="node"
                                             data-entity-uuid="1204d079-7a74-45cc-a326-36a0a2dfdf4b"
-                                            href="/en/youth-agriculture">Youth in agriculture</a></h3>
+                                            href="https://agriculture.canada.ca/en/youth-agriculture">Youth in agriculture</a></h3>
 
                                         <p>Programs and services, training and learning, organizations and resources for
                                           youth and young farmers</p>
@@ -523,7 +529,7 @@
                                       <div class="col-lg-6 col-md-6">
                                         <h3 class="h5"><a data-entity-substitution="canonical" data-entity-type="node"
                                             data-entity-uuid="f8f005b3-1ff3-4e79-97ac-0ba8ef47a332"
-                                            href="/en/indigenous-peoples-canadian-agriculture">Indigenous Peoples and
+                                            href="https://agriculture.canada.ca/en/indigenous-peoples-canadian-agriculture">Indigenous Peoples and
                                             agriculture</a></h3>
 
                                         <p>Indigenous-led agriculture, support for Indigenous business, Pathfinder
@@ -544,37 +550,37 @@
                                     <ul class="mrgn-lft-0 lst-spcd">
                                       <li class="small"><a data-entity-substitution="canonical" data-entity-type="node"
                                           data-entity-uuid="f1c605d8-79af-4e61-9894-a86ce1ec4b64"
-                                          href="/en/canadas-agriculture-sectors/overview-canadas-agriculture-and-agri-food-sector">Overview
+                                          href="https://agriculture.canada.ca/en/canadas-agriculture-sectors/overview-canadas-agriculture-and-agri-food-sector">Overview
                                           of the Canadian agriculture and agri-food sector</a></li>
                                       <li class="small">Agricultural Clean Technology Program
                                         <ul>
                                           <li class="small"><a data-entity-substitution="canonical"
                                               data-entity-type="node"
                                               data-entity-uuid="75753bda-f758-493e-97dd-929bb2845903"
-                                              href="/en/agricultural-programs-and-services/agricultural-clean-technology-program-adoption-stream">Adoption
+                                              href="https://agriculture.canada.ca/en/agricultural-programs-and-services/agricultural-clean-technology-program-adoption-stream">Adoption
                                               Stream</a></li>
                                           <li class="small"><a data-entity-substitution="canonical"
                                               data-entity-type="node"
                                               data-entity-uuid="6c51471c-6ec5-443a-9ed5-252ba2e9bcdd"
-                                              href="/en/agricultural-programs-and-services/agricultural-clean-technology-program-research-and-innovation-stream">Research
+                                              href="https://agriculture.canada.ca/en/agricultural-programs-and-services/agricultural-clean-technology-program-research-and-innovation-stream">Research
                                               and Innovation Stream</a></li>
                                         </ul>
                                       </li>
                                       <li class="small"><a data-entity-substitution="canonical" data-entity-type="node"
                                           data-entity-uuid="7124254c-d073-400d-ac22-40b3610c8f84"
-                                          href="/en/canadas-agriculture-sectors/covid-19-information-agriculture-and-agri-food-industry">COVID-19:
+                                          href="https://agriculture.canada.ca/en/canadas-agriculture-sectors/covid-19-information-agriculture-and-agri-food-industry">COVID-19:
                                           Information for industry</a></li>
                                       <li class="small"><a data-entity-substitution="canonical" data-entity-type="node"
                                           data-entity-uuid="67e414b0-d009-4503-8d73-7172af2a3061"
-                                          href="/en/agricultural-programs-and-services/business-risk-management-programs">Business
+                                          href="https://agriculture.canada.ca/en/agricultural-programs-and-services/business-risk-management-programs">Business
                                           Risk Management</a></li>
                                       <li class="small"><a data-entity-substitution="canonical" data-entity-type="node"
                                           data-entity-uuid="9150ad8a-3dff-49a3-82da-0c1743e5521d"
-                                          href="/en/youth-agriculture/canadian-agricultural-youth-council">Canadian
+                                          href="https://agriculture.canada.ca/en/youth-agriculture/canadian-agricultural-youth-council">Canadian
                                           Agricultural Youth Council</a></li>
                                       <li class="small"><a data-entity-substitution="canonical" data-entity-type="node"
                                           data-entity-uuid="9a5275ca-6aca-4e38-be1e-6947ea2dd78d"
-                                          href="/en/mental_health">Mental health in agriculture</a></li>
+                                          href="https://agriculture.canada.ca/en/mental_health">Mental health in agriculture</a></li>
                                     </ul>
                                   </div>
                                 </section>
@@ -582,7 +588,7 @@
                                   src="https://agriculture.canada.ca/sites/default/files/legacy/pack/img/agri-info-banner_360x203.jpg" />
                                 <p><a data-entity-substitution="canonical" data-entity-type="node"
                                     data-entity-uuid="dfe7cf9d-70c7-4230-821d-c5d52de84cfc"
-                                    href="/en/agri-info">Agri-info</a> - Stay up to date on agricultural programs and
+                                    href="https://agriculture.canada.ca/en/agri-info">Agri-info</a> - Stay up to date on agricultural programs and
                                   services with feature articles, podcasts and good news stories.</p>
                               </div>
                             </div>
@@ -598,7 +604,7 @@
                                     <div class="col-md-10">
                                       <p class="h5"><a data-entity-substitution="canonical" data-entity-type="node"
                                           data-entity-uuid="e47769bf-4120-4eaf-973e-5e3d2570664c"
-                                          href="/en/contact-agriculture-and-agri-food-canada">Contact Agriculture and
+                                          href="https://agriculture.canada.ca/en/contact-agriculture-and-agri-food-canada">Contact Agriculture and
                                           Agri-Food Canada</a></p>
 
                                       <h2 class="h3">About Agriculture and Agri-Food Canada</h2>
@@ -606,15 +612,15 @@
                                       <ul class="list-unstyled lst-spcd">
                                         <li><a data-entity-substitution="canonical" data-entity-type="node"
                                             data-entity-uuid="49a7b924-5f69-485b-ad1b-c19d80bddc65"
-                                            href="/en/about-our-department"><span class="h3">About our
+                                            href="https://agriculture.canada.ca/en/about-our-department"><span class="h3">About our
                                               department</span></a></li>
                                         <li><a data-entity-substitution="canonical" data-entity-type="node"
                                             data-entity-uuid="eb292373-c807-4c3f-8fe7-dd9254494aae"
-                                            href="/en/about-our-department/transparency-and-corporate-reporting"><span
+                                            href="https://agriculture.canada.ca/en/about-our-department/transparency-and-corporate-reporting"><span
                                               class="h3">Transparency</span></a></li>
                                         <li><a data-entity-substitution="canonical" data-entity-type="node"
                                             data-entity-uuid="3e3deeef-6999-4249-874f-72fe32d0166d"
-                                            href="/en/about-our-department/careers"><span class="h3">Job
+                                            href="https://agriculture.canada.ca/en/about-our-department/careers"><span class="h3">Job
                                               opportunities</span></a></li>
                                       </ul>
                                     </div>
@@ -663,7 +669,8 @@
 
                                           <div
                                             class="field field--name-image field--type-image field--label-hidden field--item">
-                                            <img src="https://agriculture.canada.ca/sites/default/files/images/2021/12/drouin_aafc_aac.jpg"
+                                            <img
+                                              src="https://agriculture.canada.ca/sites/default/files/images/2021/12/drouin_aafc_aac.jpg"
                                               width="800" height="1204" loading="lazy" typeof="foaf:Image"
                                               class="img-responsive" alt="Francis Drouin" />
 
@@ -705,7 +712,7 @@
 
                                 <p>More: <a class="admin" data-entity-substitution="canonical" data-entity-type="node"
                                     data-entity-uuid="004e0c43-7920-451d-9f6d-b706abbe03ba"
-                                    href="/en/news-agriculture-and-agri-food-canada">Agriculture and Agri-Food Canada
+                                    href="https://agriculture.canada.ca/en/news-agriculture-and-agri-food-canada">Agriculture and Agri-Food Canada
                                     news</a></p>
                               </section>
 
@@ -718,14 +725,15 @@
                                       <figure><a class="hght-inhrt" data-entity-substitution="canonical"
                                           data-entity-type="node"
                                           data-entity-uuid="2f585c1f-e828-49ff-af11-ea33c15dded9"
-                                          href="/en/agri-info/first-sixteen-podcast">
+                                          href="https://agriculture.canada.ca/en/agri-info/first-sixteen-podcast">
 
                                           <div class="img-responsive full-width thumbnail mrgn-bttm-sm"
                                             data-quickedit-entity-id="media/15495">
 
                                             <div
                                               class="field field--name-image field--type-image field--label-hidden field--item">
-                                              <img src="https://agriculture.canada.ca/sites/default/files/images/2021/11/podcast_feature_button.jpg"
+                                              <img
+                                                src="https://agriculture.canada.ca/sites/default/files/images/2021/11/podcast_feature_button.jpg"
                                                 width="360" height="203" loading="lazy" typeof="foaf:Image"
                                                 class="img-responsive" alt="" />
 
@@ -738,14 +746,14 @@
                                         <figcaption class="mrgn-lft-sm"><a class="hght-inhrt"
                                             data-entity-substitution="canonical" data-entity-type="node"
                                             data-entity-uuid="2f585c1f-e828-49ff-af11-ea33c15dded9"
-                                            href="/en/agri-info/first-sixteen-podcast"><u><strong>The First Sixteen
+                                            href="https://agriculture.canada.ca/en/agri-info/first-sixteen-podcast"><u><strong>The First Sixteen
                                                 Podcast</strong></u></a></figcaption>
                                       </figure>
 
                                       <p class="mrgn-lft-sm"><a class="hght-inhrt" data-entity-substitution="canonical"
                                           data-entity-type="node"
                                           data-entity-uuid="2f585c1f-e828-49ff-af11-ea33c15dded9"
-                                          href="/en/agri-info/first-sixteen-podcast">A podcast from Agriculture and
+                                          href="https://agriculture.canada.ca/en/agri-info/first-sixteen-podcast">A podcast from Agriculture and
                                           Agri-Food Canada</a></p>
                                     </div>
                                   </div>
@@ -754,7 +762,7 @@
                                     <div class="well well-sm brdr-rds-0 hght-inhrt">
                                       <figure><a data-entity-substitution="canonical" data-entity-type="node"
                                           data-entity-uuid="f389a0be-8dea-47d0-89d6-15e8fda180f3"
-                                          href="/en/tools-manage-farm-risk-and-finance">
+                                          href="https://agriculture.canada.ca/en/tools-manage-farm-risk-and-finance">
 
                                           <div class="img-responsive full-width thumbnail mrgn-bttm-sm"
                                             data-quickedit-entity-id="media/15810">
@@ -775,14 +783,14 @@
                                         <figcaption class="mrgn-lft-sm"><a data-entity-substitution="canonical"
                                             data-entity-type="node"
                                             data-entity-uuid="f389a0be-8dea-47d0-89d6-15e8fda180f3"
-                                            href="/en/tools-manage-farm-risk-and-finance"><strong><u>Tools to manage
+                                            href="https://agriculture.canada.ca/en/tools-manage-farm-risk-and-finance"><strong><u>Tools to manage
                                                 farm risk and finance</u> </strong></a></figcaption>
                                       </figure>
 
                                       <p class="mrgn-lft-sm"><a data-entity-substitution="canonical"
                                           data-entity-type="node"
                                           data-entity-uuid="f389a0be-8dea-47d0-89d6-15e8fda180f3"
-                                          href="/en/tools-manage-farm-risk-and-finance">Help for your farm</a></p>
+                                          href="https://agriculture.canada.ca/en/tools-manage-farm-risk-and-finance">Help for your farm</a></p>
                                     </div>
                                   </div>
                                 </div>
@@ -1043,7 +1051,7 @@
                   <div class="datemod mrgn-bttm-lg">
                     <dl id="wb-dtmd">
                       <dt>Date modified:</dt>
-                      <dd><time property="dateModified">2022-02-02</time></dd>
+                      <dd><time property="dateModified">2022-03-03</time></dd>
                     </dl>
                   </div>
                 </section>
@@ -1061,53 +1069,53 @@
     </div>
 
     <style>
- .cst-ft a:hover {
-   text-decoration: underline !important;
-   } 
-
+      .cst-ft a:hover {
+        text-decoration: underline !important;
+      }
     </style>
-  <div class="global-footer2">
-    <footer id="wb-info">
-      <div class="landscape2" style="background-color: #33465c !important;">
-        <nav class="container wb-navcurr" style="padding-top: 1.4em !important; padding-bottom: 0em !important;">
-          <div class="row">
-            <div class="col-md-12 row mrgn-tp-0 mrgn-lft-sm">
-              <h2 class="wb-inv ">Custom footer</h2>
+    <div class="global-footer2">
+      <footer id="wb-info">
+        <div class="landscape2" style="background-color: #33465c !important;">
+          <nav class="container wb-navcurr" style="padding-top: 1.4em !important; padding-bottom: 0em !important;">
+            <div class="row">
+              <div class="col-md-12 row mrgn-tp-0 mrgn-lft-sm">
+                <h2 class="wb-inv ">Custom footer</h2>
 
-              <h3 class="mrgn-tp-0 mrgn-bttm-md" style="color: white;">Agriculture and Agri-Food Canada</h3>
-              <ul class="list-unstyled colcount-md-3 cst-ft colcount-sm-1" >
-              <li><a href="" style="color: white;">Contact us</a></li>
-                  <li><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html" style="color: white;" >News</a></li>
-                    <li><a href="" style="color: white;">[Account name] </a></li>
-              </ul>
-              
+                <h3 class="mrgn-tp-0 mrgn-bttm-md" style="color: white;">Agriculture and Agri-Food Canada</h3>
+                <ul class="list-unstyled colcount-md-3 cst-ft colcount-sm-1">
+                  <li><a href="https://agriculture.canada.ca/en/contact-agriculture-and-agri-food-canada" style="color: white;">Contact us</a></li>
+                  <li><a href="https://agriculture.canada.ca/en/news-agriculture-and-agri-food-canada"
+                      style="color: white;">News</a></li>
+                  <li><a href="https://agriculture.canada.ca/en/agricultural-programs-and-services/online-services-sign/my-aafc-account-online-services-agriinvest-agristability-and-advance-payments-program" style="color: white;">My AAFC account</a></li>
+                </ul>
+
+              </div>
             </div>
-          </div>
-      
-        </nav>
-      </div>
+
+          </nav>
+        </div>
 
 
 
-  <div class="global-footer">
-    <footer id="wb-info">
-      <div class="landscape">
-        <nav class="container wb-navcurr" style="padding-top: 1.4em !important; padding-bottom: 1em !important;">
-          <div class="row">
-            <div class="col-md-12 row mrgn-tp-sm mrgn-lft-sm">
-              <h2 class="wb-inv ">About the Governmnt of Canada</h2>
+        <div class="global-footer">
+          <footer id="wb-info">
+            <div class="landscape">
+              <nav class="container wb-navcurr" style="padding-top: 1.4em !important; padding-bottom: 1em !important;">
+                <div class="row">
+                  <div class="col-md-12 row mrgn-tp-sm mrgn-lft-sm">
+                    <h2 class="wb-inv ">About the Governmnt of Canada</h2>
 
-              <h3 class="mrgn-tp-0 mrgn-bttm-md" style="color: white !important;">Government of Canada</h3>
-              
-                      <ul class="list-unstyled colcount-sm-3">
-                              <li><a href="">All contacts</a></li>
-                              <li><a href="">Departments and agencies</a></li>
-                              <li><a href="">About government</a></li>
-                      
-                      
-                      
-                      </ul>
-                <!--    <div class="provisional contributors "> if you want it as 3 items not in alignment, use this code
+                    <h3 class="mrgn-tp-0 mrgn-bttm-md" style="color: white !important;">Government of Canada</h3>
+
+                    <ul class="list-unstyled colcount-sm-3">
+                      <li><a href="">All contacts</a></li>
+                      <li><a href="">Departments and agencies</a></li>
+                      <li><a href="">About government</a></li>
+
+
+
+                    </ul>
+                    <!--    <div class="provisional contributors "> if you want it as 3 items not in alignment, use this code
 
                <ul>
                   <li><a href="">All contacts</a></li>
@@ -1115,111 +1123,112 @@
                       <li><a href="">About government</a></li>
                 </ul>
               </div>-->
-              
-            
-              
-          
-              
+
+
+
+
+
+                  </div>
+                </div>
+                <div class="mrgn-bttm-sm" style="border-bottom: 4px solid white; max-width: 35px; margin-left: 4px;">
+                </div>
+                <!-- <hr class="mrgn-tp-0 mrgn-bttm-0"> -->
+                <div class="row">
+                  <div class="col-md-12 row mrgn-tp-md mrgn-lft-sm mrgn-bttm-0">
+                    <ul class="list-unstyled colcount-sm-3">
+                      <li><a href="#">Jobs</a></li>
+                      <li><a href="#">Immigration and citizenship</a></li>
+                      <li><a href="#">Travel and tourism</a></li>
+                      <li><a href="#">Business</a></li>
+                      <li><a href="#">Benefits</a></li>
+                      <li><a href="#">Health</a></li>
+                      <li><a href="#">Taxes</a></li>
+                      <li><a href="#">Environment and natural resources</a></li>
+                      <li><a href="#">National security and defence</a></li>
+                      <li><a href="#">Culture, history and sport</a></li>
+                      <li><a href="#">Policing, justice and emergencies</a></li>
+                      <li><a href="#">Transport and infrastructure</a></li>
+                      <li><a href="#">Canada and the world</a></li>
+                      <li><a href="#">Money and finance</a></li>
+                      <li><a href="#">Science and innovation</a></li>
+                      <li><a href="#">Indigenous peoples</a></li>
+                      <li><a href="#">Veterans and military</a></li>
+                      <li><a href="#">Youth</a></li>
+
+
+
+
+                    </ul>
+                  </div>
+                </div>
+              </nav>
             </div>
-          </div>
-          <div class="mrgn-bttm-sm" style="border-bottom: 4px solid white; max-width: 35px; margin-left: 4px;"></div>
-          <!-- <hr class="mrgn-tp-0 mrgn-bttm-0"> -->
-          <div class="row">
-            <div class="col-md-12 row mrgn-tp-md mrgn-lft-sm mrgn-bttm-0">
-              <ul class="list-unstyled colcount-sm-3">
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Immigration and citizenship</a></li>
-                <li><a href="#">Travel and tourism</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Benefits</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">Taxes</a></li>
-                <li><a href="#">Environment and natural resources</a></li>
-                <li><a href="#">National security and defence</a></li>
-                <li><a href="#">Culture, history and sport</a></li>
-                <li><a href="#">Policing, justice and emergencies</a></li>
-                <li><a href="#">Transport and infrastructure</a></li>
-                <li><a href="#">Canada and the world</a></li>
-                <li><a href="#">Money and finance</a></li>
-                <li><a href="#">Science and innovation</a></li>
-                <li><a href="#">Indigenous peoples</a></li>
-                <li><a href="#">Veterans and military</a></li>
-                <li><a href="#">Youth</a></li>
+
+
+
+            <div class="brand">
+              <div class="container">
+                <div class="row">
+                  <nav class="col-md-10 ftr-urlt-lnk">
+                    <h2 class="wb-inv">About this site</h2>
+                    <ul>
+
+                      <li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
+
+
+                      <li><a href="https://agriculture.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+
+
+                      <li><a href="https://agriculture.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+                      <li><a href="#">Accessibility</a></li>
+
+
+                      <li><a href="https://agriculture.canada.ca/en/social.html">Social media</a></li>
+
+
+                      <li><a href="https://agriculture.canada.ca/en/mobile.html">Mobile applications</a></li>
 
 
 
 
-              </ul>
+
+
+
+
+                    </ul>
+                  </nav>
+                  <div class="col-xs-6 visible-sm visible-xs tofpg">
+                    <a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
+                  </div>
+                  <div class="col-xs-6 col-md-2 text-right">
+                    <img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg"
+                      alt="Symbol of the Government of Canada" />
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </nav>
-      </div>
-      
-      
-      
-      <div class="brand">
-        <div class="container">
-          <div class="row">
-            <nav class="col-md-10 ftr-urlt-lnk">
-              <h2 class="wb-inv">About this site</h2>
-              <ul>
+          </footer>
 
-                <li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
-
-
-                <li><a href="/en/transparency/terms.html">Terms and conditions</a></li>
-
-
-                <li><a href="/en/transparency/privacy.html">Privacy</a></li>
-                <li><a href="#">Accessibility</a></li>
-
-
-                <li><a href="/en/social.html">Social media</a></li>
-
-
-                <li><a href="/en/mobile.html">Mobile applications</a></li>
-
-
-
-
-
-
-
-
-              </ul>
-            </nav>
-            <div class="col-xs-6 visible-sm visible-xs tofpg">
-              <a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
-            </div>
-            <div class="col-xs-6 col-md-2 text-right">
-              <img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg"
-                alt="Symbol of the Government of Canada" />
-            </div>
-          </div>
         </div>
-      </div>
-    </footer>
-
-  </div>
 
 
 
 
-  <div class="newpar new section">
+        <div class="newpar new section">
 
-  </div>
-
-
+        </div>
 
 
-  <div class="par iparys_inherited">
+
+
+        <div class="par iparys_inherited">
 
 
 
 
 
 
-  </div>
+        </div>
 
 
 
@@ -1234,7 +1243,7 @@
 
 
 
-  <script type="text/javascript">_satellite.pageBottom();</script>
+        <script type="text/javascript">_satellite.pageBottom();</script>
 
 
 
@@ -1244,17 +1253,17 @@
 
 
 
-  <script src="https://www.canada.ca/etc.clientlibs/clientlibs/granite/jquery.min.js"></script>
-  <script src="https://www.canada.ca/etc.clientlibs/clientlibs/granite/utils.min.js"></script>
-  <script src="https://www.canada.ca/etc/designs/canada/clientlib-publish.min.js"></script>
+        <script src="https://www.canada.ca/etc.clientlibs/clientlibs/granite/jquery.min.js"></script>
+        <script src="https://www.canada.ca/etc.clientlibs/clientlibs/granite/utils.min.js"></script>
+        <script src="https://www.canada.ca/etc/designs/canada/clientlib-publish.min.js"></script>
 
 
 
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-  <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+        <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
 
 
 
