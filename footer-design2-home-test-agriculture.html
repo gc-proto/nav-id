@@ -112,7 +112,9 @@
   .global-footer h3 {
     color: white;
   }
-
+ .icon {
+   min-height: 0px;
+ }
   /* .wayfinder {
     border-right: 1px solid white;
     margin-right: 60px;
@@ -184,7 +186,7 @@
 }
 </style>
 <body
-  class="agricultureandagrifoodcanada role-is-anonymous anonymous node-1 landing_page published-yes home path-frontpage page-node-type-landing-page has-glyphicons aafctheme theme-gcweb">
+  class="agricultureandagrifoodcanada role-is-anonymous anonymous node-1 landing_page published-yes path-frontpage page-node-type-landing-page has-glyphicons aafctheme theme-gcweb">
   <nav aria-label="Skip links">
     <ul id="wb-tphp">
       <li class="wb-slc">
@@ -203,7 +205,7 @@
   <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
 
 
-    <header class="navbar navbar-default" id="navbar">
+    <header class="navbar navbar-default" id="navbar" style="background-color: white !important;">
       <div id="wb-bnr" class="container">
         <div class="row">
           <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right mrgn-bttm-md">
@@ -338,7 +340,7 @@
             <nav id="wb-bc" property="breadcrumb" aria-labelledby="breadcrumbTitle">
               <h2 id="breadcrumbTitle">You are here</h2>
               <div class="container">
-                <ol class="breadcrumb">
+                <ol class="breadcrumb" style="font-size:16px; margin-left: -16px;">
                   <li><a href="https://canada.ca/en">Canada.ca</a></li>
                 </ol>
               </div>
@@ -407,7 +409,8 @@
                                   <h2 class="h3 mrgn-tp-md">Most requested</h2>
 
                                   <ul
-                                    class="wb-eqht list-unstyled mrgn-tp-md mrgn-bttm-sm lst-spcd-2 list-responsive h6 list-responsive-3">
+                                    class="wb-eqht list-unstyled mrgn-tp-md mrgn-bttm-sm lst-spcd-2 h6 colcount-md-3" style="font-size: 17px;
+    font-weight: 700;">
                                     <li><a data-entity-substitution="canonical" data-entity-type="node"
                                         data-entity-uuid="87445223-6317-4dfd-8d33-054436595ec5"
                                         href="/en/canadas-agriculture-sectors/step-plate-help-feed-canadians">Step up to
@@ -1073,9 +1076,9 @@
 
               <h3 class="mrgn-tp-0 mrgn-bttm-md" style="color: white;">Agriculture and Agri-Food Canada</h3>
               <ul class="list-unstyled colcount-md-3 cst-ft colcount-sm-1" >
-              <li><a href="" style="color: white;">Contact Agriculture and Agri-Food Canada</a></li>
+              <li><a href="" style="color: white;">Contact us</a></li>
                   <li><a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html" style="color: white;" >News</a></li>
-                    <li><a href="" style="color: white;">Submit service feedback </a></li>
+                    <li><a href="" style="color: white;">[Account name] </a></li>
               </ul>
               
             </div>
@@ -1094,15 +1097,24 @@
             <div class="col-md-12 row mrgn-tp-sm mrgn-lft-sm">
               <h2 class="wb-inv ">About the Governmnt of Canada</h2>
 
-              <h3 class="mrgn-tp-0 mrgn-bttm-md">Government of Canada</h3>
+              <h3 class="mrgn-tp-0 mrgn-bttm-md" style="color: white !important;">Government of Canada</h3>
               
-              <div class="provisional contributors ">
-                <ul>
+                      <ul class="list-unstyled colcount-sm-3">
+                              <li><a href="">All contacts</a></li>
+                              <li><a href="">Departments and agencies</a></li>
+                              <li><a href="">About government</a></li>
+                      
+                      
+                      
+                      </ul>
+                <!--    <div class="provisional contributors "> if you want it as 3 items not in alignment, use this code
+
+               <ul>
                   <li><a href="">All contacts</a></li>
                     <li><a href="">Departments and agencies</a></li>
                       <li><a href="">About government</a></li>
                 </ul>
-              </div>
+              </div>-->
               
             
               
