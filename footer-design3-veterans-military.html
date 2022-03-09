@@ -97,95 +97,187 @@
   <script>!function (a) { var e = "https://s.go-mpulse.net/boomerang/", t = "addEventListener"; if ("False" == "True") a.BOOMR_config = a.BOOMR_config || {}, a.BOOMR_config.PageParams = a.BOOMR_config.PageParams || {}, a.BOOMR_config.PageParams.pci = !0, e = "https://s2.go-mpulse.net/boomerang/"; if (window.BOOMR_API_key = "KBFUZ-C9D7G-RB8SX-GRGEN-HGMC9", function () { function n(e) { a.BOOMR_onload = e && e.timeStamp || (new Date).getTime() } if (!a.BOOMR || !a.BOOMR.version && !a.BOOMR.snippetExecuted) { a.BOOMR = a.BOOMR || {}, a.BOOMR.snippetExecuted = !0; var i, _, o, r = document.createElement("iframe"); if (a[t]) a[t]("load", n, !1); else if (a.attachEvent) a.attachEvent("onload", n); r.src = "javascript:void(0)", r.title = "", r.role = "presentation", (r.frameElement || r).style.cssText = "width:0;height:0;border:0;display:none;", o = document.getElementsByTagName("script")[0], o.parentNode.insertBefore(r, o); try { _ = r.contentWindow.document } catch (O) { i = document.domain, r.src = "javascript:var d=document.open();d.domain='" + i + "';void(0);", _ = r.contentWindow.document } _.open()._l = function () { var a = this.createElement("script"); if (i) this.domain = i; a.id = "boomr-if-as", a.src = e + "KBFUZ-C9D7G-RB8SX-GRGEN-HGMC9", BOOMR_lstart = (new Date).getTime(), this.body.appendChild(a) }, _.write("<bo" + 'dy onload="document._l();">'), _.close() } }(), "".length > 0) if (a && "performance" in a && a.performance && "function" == typeof a.performance.setResourceTimingBufferSize) a.performance.setResourceTimingBufferSize(); !function () { if (BOOMR = a.BOOMR || {}, BOOMR.plugins = BOOMR.plugins || {}, !BOOMR.plugins.AK) { var e = "" == "true" ? 1 : 0, t = "", n = "vzz7b3nydfeosyprvuha-f-3e115c04f-clientnsv4-s.akamaihd.net", i = "false" == "true" ? 2 : 1, _ = { "ak.v": "32", "ak.cp": "368225", "ak.ai": parseInt("231651", 10), "ak.ol": "0", "ak.cr": 21, "ak.ipv": 4, "ak.proto": "h2", "ak.rid": "16f3a722", "ak.r": 32593, "ak.a2": e, "ak.m": "dscb", "ak.n": "essl", "ak.bpcip": "174.115.240.0", "ak.cport": 50151, "ak.gh": "209.148.205.76", "ak.quicv": "", "ak.tlsv": "tls1.3", "ak.0rtt": "", "ak.csrc": "-", "ak.acc": "", "ak.t": "1643228430", "ak.ak": "hOBiQwZUYzCg5VSAfCLimQ==zepcwCFdybQaPzLP439e8SVagwK8MeXsI3o3C7oAgFDspxmfedOLXNq48uydNobb3fNDMJ8J/dD9I3OxvasvxKMhNF/tfhBGTmi0MEkPcsowRH1xA4yinO+bhjmfZynTdREGCUtbt18qysP5Z6kt8iqRR735+psK/7O00dxaMafYa8yqG0hFvLj0BECj3wzf4Ab7Kyj5v/Hc7rM0fhAz/wq4/9YdfKDm2uZNfpl7unmmOhd3I0rFKT/6wpi+Eayr5TuxyCTWkbkVvzzUKcg8jPHf8Er10jr5BbHvQgnC2gq0bBSCUvDF1siRlkVPVhsFymulyc8wifVns5dybGe5K0iXrpX8b4FGQm1F75k6c4i5SpSUIcblgDFP6mFywhFRTQkpblFE++axkHoHxz31kmgecjzY03v9JZdXMD170Rc=", "ak.pv": "635", "ak.dpoabenc": "", "ak.tf": i }; if ("" !== t) _["ak.ruds"] = t; var o = { i: !1, av: function (e) { var t = "http.initiator"; if (e && (!e[t] || "spa_hard" === e[t])) _["ak.feo"] = void 0 !== a.aFeoApplied ? 1 : 0, BOOMR.addVar(_) }, rv: function () { var a = ["ak.bpcip", "ak.cport", "ak.cr", "ak.csrc", "ak.gh", "ak.ipv", "ak.m", "ak.n", "ak.ol", "ak.proto", "ak.quicv", "ak.tlsv", "ak.0rtt", "ak.r", "ak.acc", "ak.t", "ak.tf"]; BOOMR.removeVar(a) } }; BOOMR.plugins.AK = { akVars: _, akDNSPreFetchDomain: n, init: function () { if (!o.i) { var a = BOOMR.subscribe; a("before_beacon", o.av, null, null), a("onbeacon", o.rv, null, null), o.i = !0 } return this }, is_complete: function () { return !0 } } } }() }(window);</script>
 </head>
 <style>
-  .ip-covers-img {
-    background-image: url(https://agriculture.canada.ca//themes/custom/aafctheme/images/aafc_homepage_banner_nov18.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    margin-top: 15px;
-  }
+  .provisional.profile {
+	position: relative;
+	overflow-x: hidden;
+}
 
+.provisional.profile .pagetag {
+	max-width: 65ch;
+}
 
-  .global-footer h3 {
-    color: white;
-  }
+.provisional.single-feature figcaption {
+	margin-top: 5px;
+	text-decoration: underline;
+}
 
-  .icon {
-    min-height: 0px;
-  }
+.provisional .thumbnail {
+	border-color: #335075;
+	border-width: 1px;
+	padding: 0px;
+}
 
-  /* .wayfinder {
-    border-right: 1px solid white;
-    margin-right: 60px;
-  } */
-
-  .wayfinder {
-    border-right: 1px solid white;
-  }
-
-  .btn-contact {
-    background-color: #ccc;
-    border-radius: 0;
-    color: #26374a !important;
-    font-weight: bold !important;
-    margin-bottom: 16px;
-
-  }
-
-  #wb-info .landscape2 {
-    background: #e3e3e3;
-  }
-
-  /* .provisional.contributors {
+.provisional.contributors {
 	font-size: 16px;
 	font-weight: 600;
-} */
+}
 
-  .provisional.from {
-    font-size: 17px;
-    margin-top: 3px;
-  }
+.provisional.from {
+	font-size: 17px;
+	margin-top: 7px;
+}
 
-  .provisional.contributors ul {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-  }
+.provisional.contributors ul {
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	margin-inline-start: -50px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0px;
+}
 
-  @media screen and (min-width: 991px) {
-    .provisional.contributors li {
-      display: inline-block;
-      margin-right: .7em;
-      list-style-type: none;
-    }
+.provisional.most-requested-bullets li {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 26px;
+	margin-top: 0
+}
 
-    .provisional.contributors li:first-child:before {
-      content: none;
-    }
+.provisional.most-requested-bullets .pddng-r-0 {
+	padding-right: 0px;
+}
 
-    .provisional.contributors li:before {
-      content: "\2022";
-      margin-right: .7em;
-    }
-  }
+.provisional.most-requested-bullets h2 {
+	font-size: 1.2em;
+}
 
-  @media screen and (max-width: 1200px) {
-    .provisional.contributors ul {
-      margin-inline-start: 0px;
-    }
-  }
+.provisional.list-bld {
+	font-weight: 600;
+}
 
-  @media screen and (max-width: 991px) {
-    .provisional.most-requested-bullets li {
-      font-size: 19px;
-    }
+.provisional.followus h2 {
+	font-size: 1.1em;
+	margin-top: 10px;
+}
 
-    /* .provisional.contributors ul {
-  margin-inline-start: 1.5em;
-} */
-  }
+.provisional.followus {
+	padding: 0;
+}
+
+.provisional.followus h2 {
+	display: block;
+}
+
+.provisional.followus h2,
+.provisional.followus ul {
+	margin-left: 0;
+}
+
+.provisional.followus-vertical {
+	line-height: 0em;
+}
+
+.provisional.followus-vertical,
+.provisional.followus {
+	background-color: transparent;
+}
+
+.provisional.followus-vertical a {
+	text-decoration: none;
+}
+
+.provisional.followus-vertical ul {
+	display: block;
+	list-style-type: none;
+	margin-block-start: 1em;
+	padding-inline-start: 1em;
+	font-size: 16px;
+	margin-block-end: 0em;
+}
+
+.provisional.followus-vertical ul li {
+	margin-bottom: 15px;
+}
+
+.provisional.followus-vertical ul li:last-child {
+	margin-bottom: 0px;
+}
+
+.provisional.followus-vertical ul li a {
+	border: none;
+	padding: 0px 5px;
+}
+
+.provisional.followus ul li a {
+	border: none;
+}
+
+.provisional .social-lnk {
+	position: relative;
+	bottom:-18px;
+	left:45px;
+}
+
+.provisional.followus-vertical li {
+	display: block;
+	background-position: left;
+}
+
+.provisional.followus .facebook,
+.provisional.followus .twitter,
+.provisional.followus .youtube,
+.provisional.followus .instagram {
+	display: block;
+	height: 38px;
+	width: 38px;
+}
+/* remove this section if you do not want the new icons */
+
+.provisional.followus .facebook {
+	background: url("https://design.canada.ca/images/social-media/facebook.png") 0 0 / cover no-repeat;
+}
+.provisional.followus .twitter {
+	background: url("https://design.canada.ca/images/social-media/twitter.png") 0 0 / cover no-repeat;
+}
+.provisional.followus .youtube {
+	background: url("https://design.canada.ca/images/social-media/youtube.png") 0 0 / cover no-repeat;
+}
+.provisional.followus .instagram {
+	background: url("https://design.canada.ca/images/social-media/instagram.png") 0 0 / cover no-repeat;
+}
+.provisional.followus .linkedin {
+	background: url("https://design.canada.ca/images/social-media/linkedin.png") 0 0 / cover no-repeat;
+} 
+/* end of new social media icons */
+
+@media screen and (min-width: 991px) {
+	.provisional.contributors li {
+		display: inline-block;
+		margin-right: .7em;
+	}
+	.provisional.contributors li:first-child:before {
+		content: none;
+	}
+	.provisional.contributors li:before {
+		content: "\2022";
+		margin-right: .7em;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.provisional.contributors ul {
+		margin-inline-start: -30px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.provisional.most-requested-bullets li {
+		font-size: 19px;
+	}
+	.provisional.contributors ul {
+		margin-inline-start: 1.5em;
+	}
+}
 </style>
 
 <body
@@ -260,151 +352,154 @@
 
 
     <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-      <div class="mwsgeneric-base-html parbase section">
-
-
-
-        <div class="provisional profile">
-          <div class="container">
-            <div class="row">
-
-              <!-- change col-md-6 to col-md-12 if not using an image -->
-              <div class="intro col-md-12 col-sm-12 mrgn-bttm-md">
-                <h1 property="name" id="wb-cont" class="provisional gc-thickline">Veterans and military</h1>
-                <p class="">Services, benefits, and jobs for current and former members of the Canadian Armed forces, or
-                  the RCMP and their families. </p>
-              </div>
-            </div>
+    <div class="provisional profile">
+      <div class="container">
+        <div class="row">
+    
+          <!-- change col-md-6 to col-md-12 if not using an image -->
+          <div class="intro col-md-12 col-sm-12 mrgn-bttm-md">
+            <h1 property="name" id="wb-cont" class="provisional gc-thickline">Veterans and military</h1>
+            <p class="">Services, benefits, and jobs for current and former members of the Canadian Armed forces, or
+              the RCMP and their families. </p>
+          </div>
+            
+        </div>
+      </div>
+    </div>
+    
+    <!-- remove 'mrgn-tp-0' class if you are not using an image -->
+    <section class="provisional most-requested-bullets well well-sm brdr-0 mrgn-tp-0">
+      <div class="container">
+        <div class="row">
+          <div class="pddng-r-0 col-md-2">
+            <h2 class="mrgn-tp-md">Most requested</h2>
+          </div>
+          <div class="col-md-10">
+    
+            <!-- change to colcount-md-1 if you only have 2-3 most requested items -->
+            <ul class="wb-eqht mrgn-tp-md mrgn-bttm-md colcount-md-2">
+              <li><a href="http://www.veterans.gc.ca/eng/e_services">My VAC Account</a></li>
+              <li><a href="https://www.canada.ca/en/services/defence/caf.html">Canadian Armed Forces</a></li>
+              <li><a href="https://forces.ca/en/talk-to-a-recruiter/">Talk to a recruiter</a></li>
+              <li><a
+                  href="https://www.canada.ca/en/department-national-defence/services/operations/military-operations/current-operations/list.html">Current
+                  military operations</a></li>
+            </ul>
           </div>
         </div>
-
-        <!-- remove 'mrgn-tp-0' class if you are not using an image -->
-        <section class="provisional most-requested-bullets well well-sm brdr-0">
-          <div class="container">
-            <div class="row">
-              <div class="pddng-r-0 col-md-2">
-                <h2 class="mrgn-tp-md">Most requested</h2>
-              </div>
-              <div class="col-md-10">
-
-                <!-- change to colcount-md-1 if you only have 2-3 most requested items -->
-                <ul class="wb-eqht mrgn-tp-md mrgn-bttm-md colcount-md-2">
-                  <li><a href="http://www.veterans.gc.ca/eng/e_services">My VAC Account</a></li>
-                  <li><a href="https://www.canada.ca/en/services/defence/caf.html">Canadian Armed Forces</a></li>
-                  <li><a href="https://forces.ca/en/talk-to-a-recruiter/">Talk to a recruiter</a></li>
-                  <li><a
-                      href="https://www.canada.ca/en/department-national-defence/services/operations/military-operations/current-operations/list.html">Current
-                      military operations</a></li>
-                </ul>
-              </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row">
+    
+        <!-- showing the basic doormat pattern - refer to the Services and information documentation for options -->
+        <section class="gc-srvinfo col-md-12">
+          <h2 class="wb-inv">Services and information</h2>
+          <div class="wb-eqht row">
+            <div class="col-lg-4 col-md-6">
+              <h3><a href="http://www.veterans.gc.ca/eng/services">Services and benefits for veterans</a></h3>
+              <p>Financial support, healthcare, disability and other benefits for current and former members of the
+                Canadian Armed Forces or the RCMP and their families</p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3><a href="https://www.canada.ca/en/government/publicservice/benefitsmilitary.html">Services and
+                  benefits for the
+                  military</a></h3>
+              <p>Pay, pension, transition, housing, education, training and health services and benefits for members
+                of the Canadian Armed Forces (<abbr title="Canadian Armed Forces ">CAF</abbr>) and their families.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3><a href="https://www.canada.ca/en/government/publicservice/benefitsrcmp.html">Services and
+                  benefits for the
+                  RCMP</a></h3>
+              <p>Pay, pension, transition, housing, education, training and health services and benefits for <abbr
+                  title="Royal Canadian Mounted Police">RCMP</abbr> members and their families</p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3><a
+                  href="https://www.canada.ca/en/public-service-commission/jobs/services/gc-jobs/canadian-armed-forces-members-veterans.html">Public
+                  service jobs for military and veterans</a></h3>
+              <p>For military personnel and veterans wanting to transition to civilian life</p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3><a href="https://www.canada.ca/enservices/taxes/savings-and-pension-plans.html">Jobs in national
+                  security and defence</a></h3>
+              <p>Jobs with the Canadian Armed Forces, Royal Canadian Mounted Police, the Canadian Security
+                Intelligence Service, Canadian Border Services Agency, National Defence and Public Safety Canada.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3><a href="https://www.canada.ca/en/government/publicservice.html">Working for the Government of
+                  Canada</a>
+              </h3>
+              <p>Job opportunities, hiring programs, rates of pay, pay, benefits and pension plans for the federal
+                public service, the military and the RCMP
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3><a href="https://www.veterans.gc.ca/eng/health-support">Veterans mental health and wellness</a></h3>
+              <p>Support and services related to veterans and family physical and mental health, including treatment for PTSD</p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3><a href="https://www.veterans.gc.ca/eng/health-support">Health and wellness for the military</a></h3>
+              <p>Health, wellness and spiritual services to support Canadian Armed Forces and their families. </p>
             </div>
           </div>
         </section>
-        <div class="container">
-          <div class="row">
-
-            <!-- showing the basic doormat pattern - refer to the Services and information documentation for options -->
-            <section class="gc-srvinfo col-md-12">
-              <h2 class="wb-inv">Services and information</h2>
-              <div class="wb-eqht row">
-                <div class="col-lg-4 col-md-6">
-                  <h3><a href="http://www.veterans.gc.ca/eng/services">Services and benefits for veterans</a></h3>
-                  <p>Financial support, healthcare, disability and other benefits for current and former members of the
-                    Canadian Armed Forces or the RCMP and their families</p>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <h3><a href="https://www.canada.ca/en/government/publicservice/benefitsmilitary.html">Services and
-                      benefits for the
-                      military</a></h3>
-                  <p>Pay, pension, transition, housing, education, training and health services and benefits for members
-                    of the Canadian Armed Forces (<abbr title="Canadian Armed Forces ">CAF</abbr>) and their families.
-                  </p>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <h3><a href="https://www.canada.ca/en/government/publicservice/benefitsrcmp.html">Services and
-                      benefits for the
-                      RCMP</a></h3>
-                  <p>Pay, pension, transition, housing, education, training and health services and benefits for <abbr
-                      title="Royal Canadian Mounted Police">RCMP</abbr> members and their families</p>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <h3><a
-                      href="https://www.canada.ca/en/public-service-commission/jobs/services/gc-jobs/canadian-armed-forces-members-veterans.html">Public
-                      service jobs for military and veterans</a></h3>
-                  <p>For military personnel and veterans wanting to transition to civilian life</p>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <h3><a href="https://www.canada.ca/enservices/taxes/savings-and-pension-plans.html">Jobs in national
-                      security and defence</a></h3>
-                  <p>Jobs with the Canadian Armed Forces, Royal Canadian Mounted Police, the Canadian Security
-                    Intelligence Service, Canadian Border Services Agency, National Defence and Public Safety Canada.
-                  </p>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <h3><a href="https://www.canada.ca/en/government/publicservice.html">Working for the Government of
-                      Canada</a>
-                  </h3>
-                  <p>Job opportunities, hiring programs, rates of pay, pay, benefits and pension plans for the federal
-                    public service, the military and the RCMP
-                  </p>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <h3><a href="https://www.veterans.gc.ca/eng/health-support">Veterans mental health and wellness</a></h3>
-                  <p>Support and services related to veterans and family physical and mental health, including treatment for PTSD</p>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <h3><a href="https://www.veterans.gc.ca/eng/health-support">Health and wellness for the military</a></h3>
-                  <p>Health, wellness and spiritual services to support Canadian Armed Forces and their families. </p>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-
-        <!-- optional section: One feature and social media - design is flexible -->
-
-
-
-        <!-- optional section: Contributors-->
-        <div class="container">
-          <div class="row">
-            <section class="col-md-8">
-              <h2 class="wb-inv">Contributors</h2>
-              <div class="col-md-1 text-left">
-                <h3 class="provisional from">From: </h3>
-              </div>
-              <div class="provisional contributors col-md-auto">
-                <ul>
-                  <li><a href="https://www.veterans.gc.ca/eng">Veterans Affairs Canada </a></li>
-                  <li><a href="https://www.canada.ca/en/department-national-defence.html">National Defence</a></li>
-                  <li><a href="https://www.rcmp-grc.gc.ca/">RCMP</a></li>
-                </ul>
-              </div>
-            </section>
-            <section class="col-md-4 mrgn-bttm-sm">
-              <div class="provisional followus followus-horizontal">
-                <h2>On social media</h2>
-                <br>
-                <ul>
-                  <li><a href="https://www.facebook.com/canrevagency/" rel="external" class="social-lnk facebook"><span
-                        class="wb-inv">Facebook</span></a></li>
-                  <li><a href="https://twitter.com/CanRevAgency" rel="external" class="social-lnk twitter"> <span
-                        class="wb-inv">Twitter</span></a></li>
-                  <li><a href="https://www.youtube.com/user/CanRevAgency" rel="external" class="social-lnk youtube">
-                      <span class="wb-inv">YouTube </span></a></li>
-                  <li><a href="https://www.linkedin.com/company/cra-arc" rel="external"
-                      class="social-lnk linkedin"><span class="wb-inv">LinkedIn</span></a></li>
-                  <li><a href="http://www.instagram.com/canrevagency" rel="external" class="social-lnk instagram"><span
-                        class="wb-inv">Instagram</span></a></li>
-                </ul>
-              </div>
-            </section>
-          </div>
-        </div>
-
-
-
       </div>
+    </div>
+    
+    <!-- optional section: One feature and social media - design is flexible -->
+    <div class="gc-prtts mrgn-tp-md">
+      <div class="container">
+        <div class="row">
+    
+          <!-- remove this section if not including social media information -->
+      <section class="col-md-4 mrgn-bttm-sm pull-right">
+        <div class="followus followus">
+          <h2>On social media</h2>
+          <br>
+          <ul>
+            <li><a href="https://www.facebook.com/canrevagency/" rel="external" class="social-lnk facebook"><span
+                  class="wb-inv">Facebook</span></a></li>
+            <li><a href="https://twitter.com/CanRevAgency" rel="external" class="social-lnk twitter"> <span
+                  class="wb-inv">Twitter</span></a></li>
+            <li><a href="https://www.youtube.com/user/CanRevAgency" rel="external" class="social-lnk youtube">
+                <span class="wb-inv">YouTube </span></a></li>
+            <li><a href="https://www.linkedin.com/company/cra-arc" rel="external" class="social-lnk linkedin"><span
+                  class="wb-inv">LinkedIn</span></a></li>
+            <li><a href="http://www.instagram.com/canrevagency" rel="external" class="social-lnk instagram"><span
+                  class="wb-inv">Instagram</span></a></li>
+          </ul>
+        </div>
+      </section>
+          <!-- end of social media div -->
+
+        </div>
+      </div>
+    </div>
+    
+    <!-- optional section: Contributors-->
+    <div class="container">
+      <div class="row">
+        <h2 class="wb-inv">Contributors</h2>
+        <div class="row">
+          <section class="col-md-12">
+            <div class="col-md-1">
+              <h3 class="provisional from">From:</h3>
+            </div>
+            <div class="provisional contributors col-md-11">
+              <ul>
+                <li><a href="https://www.veterans.gc.ca/eng">Veterans Affairs Canada </a></li>
+                <li><a href="https://www.canada.ca/en/department-national-defence.html">National Defence</a></li>
+                <li><a href="https://www.rcmp-grc.gc.ca/">RCMP</a></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
       <div class="mwsgeneric-base-html parbase section">
 
 
