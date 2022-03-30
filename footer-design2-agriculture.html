@@ -100,6 +100,55 @@
   <script>!function (a) { var e = "https://s.go-mpulse.net/boomerang/", t = "addEventListener"; if ("False" == "True") a.BOOMR_config = a.BOOMR_config || {}, a.BOOMR_config.PageParams = a.BOOMR_config.PageParams || {}, a.BOOMR_config.PageParams.pci = !0, e = "https://s2.go-mpulse.net/boomerang/"; if (window.BOOMR_API_key = "KBFUZ-C9D7G-RB8SX-GRGEN-HGMC9", function () { function n(e) { a.BOOMR_onload = e && e.timeStamp || (new Date).getTime() } if (!a.BOOMR || !a.BOOMR.version && !a.BOOMR.snippetExecuted) { a.BOOMR = a.BOOMR || {}, a.BOOMR.snippetExecuted = !0; var i, _, o, r = document.createElement("iframe"); if (a[t]) a[t]("load", n, !1); else if (a.attachEvent) a.attachEvent("onload", n); r.src = "javascript:void(0)", r.title = "", r.role = "presentation", (r.frameElement || r).style.cssText = "width:0;height:0;border:0;display:none;", o = document.getElementsByTagName("script")[0], o.parentNode.insertBefore(r, o); try { _ = r.contentWindow.document } catch (O) { i = document.domain, r.src = "javascript:var d=document.open();d.domain='" + i + "';void(0);", _ = r.contentWindow.document } _.open()._l = function () { var a = this.createElement("script"); if (i) this.domain = i; a.id = "boomr-if-as", a.src = e + "KBFUZ-C9D7G-RB8SX-GRGEN-HGMC9", BOOMR_lstart = (new Date).getTime(), this.body.appendChild(a) }, _.write("<bo" + 'dy onload="document._l();">'), _.close() } }(), "".length > 0) if (a && "performance" in a && a.performance && "function" == typeof a.performance.setResourceTimingBufferSize) a.performance.setResourceTimingBufferSize(); !function () { if (BOOMR = a.BOOMR || {}, BOOMR.plugins = BOOMR.plugins || {}, !BOOMR.plugins.AK) { var e = "" == "true" ? 1 : 0, t = "", n = "vzz7b3nydfeosyprvuha-f-3e115c04f-clientnsv4-s.akamaihd.net", i = "false" == "true" ? 2 : 1, _ = { "ak.v": "32", "ak.cp": "368225", "ak.ai": parseInt("231651", 10), "ak.ol": "0", "ak.cr": 21, "ak.ipv": 4, "ak.proto": "h2", "ak.rid": "16f3a722", "ak.r": 32593, "ak.a2": e, "ak.m": "dscb", "ak.n": "essl", "ak.bpcip": "174.115.240.0", "ak.cport": 50151, "ak.gh": "209.148.205.76", "ak.quicv": "", "ak.tlsv": "tls1.3", "ak.0rtt": "", "ak.csrc": "-", "ak.acc": "", "ak.t": "1643228430", "ak.ak": "hOBiQwZUYzCg5VSAfCLimQ==zepcwCFdybQaPzLP439e8SVagwK8MeXsI3o3C7oAgFDspxmfedOLXNq48uydNobb3fNDMJ8J/dD9I3OxvasvxKMhNF/tfhBGTmi0MEkPcsowRH1xA4yinO+bhjmfZynTdREGCUtbt18qysP5Z6kt8iqRR735+psK/7O00dxaMafYa8yqG0hFvLj0BECj3wzf4Ab7Kyj5v/Hc7rM0fhAz/wq4/9YdfKDm2uZNfpl7unmmOhd3I0rFKT/6wpi+Eayr5TuxyCTWkbkVvzzUKcg8jPHf8Er10jr5BbHvQgnC2gq0bBSCUvDF1siRlkVPVhsFymulyc8wifVns5dybGe5K0iXrpX8b4FGQm1F75k6c4i5SpSUIcblgDFP6mFywhFRTQkpblFE++axkHoHxz31kmgecjzY03v9JZdXMD170Rc=", "ak.pv": "635", "ak.dpoabenc": "", "ak.tf": i }; if ("" !== t) _["ak.ruds"] = t; var o = { i: !1, av: function (e) { var t = "http.initiator"; if (e && (!e[t] || "spa_hard" === e[t])) _["ak.feo"] = void 0 !== a.aFeoApplied ? 1 : 0, BOOMR.addVar(_) }, rv: function () { var a = ["ak.bpcip", "ak.cport", "ak.cr", "ak.csrc", "ak.gh", "ak.ipv", "ak.m", "ak.n", "ak.ol", "ak.proto", "ak.quicv", "ak.tlsv", "ak.0rtt", "ak.r", "ak.acc", "ak.t", "ak.tf"]; BOOMR.removeVar(a) } }; BOOMR.plugins.AK = { akVars: _, akDNSPreFetchDomain: n, init: function () { if (!o.i) { var a = BOOMR.subscribe; a("before_beacon", o.av, null, null), a("onbeacon", o.rv, null, null), o.i = !0 } return this }, is_complete: function () { return !0 } } } }() }(window);</script>
 </head>
 <style>
+
+
+#wb-bc li:before {
+    color: #333;
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-size: .7em;
+    font-weight: 900;
+}
+
+#wb-bc li:first-child a {
+  padding: 0px 0px 0px 6px;
+  border-left: 3px solid #26374a; 
+}
+
+}
+#wb-bc a {
+    padding: 5px 5px;
+}
+
+/* end breadcrumbs */
+
+/*h1 */
+ h1:before {
+  border-bottom: 0px;
+}
+h1 {
+  display: block;
+  padding-bottom: .35em;
+  position: relative;
+  border-bottom: none;
+  }
+  
+  
+h1:before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: .18em solid  #af3c43;
+}
+
+.home h1:before{
+    width: 65px !important;
+}
+
+
   .ip-covers-img {
     background-image: url(https://agriculture.canada.ca//themes/custom/aafctheme/images/aafc_homepage_banner_nov18.jpg);
     background-repeat: no-repeat;
@@ -211,7 +260,7 @@
   <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
 
 
-    <header class="navbar navbar-default" id="navbar" style="background-color: white !important;">
+    <header class="navbar navbar-default" id="navbar" style="background-color: white !important; margin-bottom:10px; border-bottom: 0px;">
       <div id="wb-bnr" class="container">
         <div class="row">
           <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right mrgn-bttm-md">
